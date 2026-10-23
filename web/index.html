@@ -90,6 +90,32 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 @media(max-width:520px){.hero{border-radius:1rem}.hero-art{height:155px}.hero-art:before{width:140px;height:140px;right:17%}.section{padding-top:2.5rem}.expedition{grid-template-columns:1fr}.route-step{min-height:60px}.grid,.evidence,.sources{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.btn,.card,.time-card,.source-link,nav button,.answer{transition:none}.btn:hover,.card:hover,.time-card:hover,.source-link:hover,nav button:hover{transform:none}}
 
+
+/* Experiencia visual y ludica: imagenes editoriales, misiones y progreso */
+.visual-exhibit{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:1rem;margin-top:1.4rem}
+.exhibit-card{position:relative;min-height:235px;overflow:hidden;border-radius:1.1rem;background:#173b34;color:#fffdf5;box-shadow:0 12px 30px #10272518;isolation:isolate}
+.exhibit-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .45s ease}
+.exhibit-card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#0b2524f2 0%,#0b252455 62%,#0b25240a 100%)}
+.exhibit-card:hover img{transform:scale(1.055)}
+.exhibit-card .exhibit-copy{position:absolute;inset:auto 1rem 1rem}
+.exhibit-card .exhibit-tag{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#f3cf83;font-weight:800}
+.exhibit-card h3{font:1.4rem/1.15 Georgia,serif;margin:.35rem 0}
+.exhibit-card p{font-size:.83rem;line-height:1.4;color:#f1f3e8;margin:.25rem 0}
+.image-note{font-size:.72rem;color:var(--muted);margin:.6rem 0 0}
+.mission-panel{display:grid;grid-template-columns:.8fr 1.2fr;gap:1.2rem;background:#173b34;color:#fff9e9;padding:clamp(1.2rem,3vw,2rem);border-radius:1.2rem;margin-top:1rem;box-shadow:var(--shadow)}
+.mission-panel h3{font:clamp(1.5rem,3vw,2.2rem)/1.1 Georgia,serif;margin:.45rem 0}
+.mission-panel p{color:#d6e2d7}
+.mission-progress{height:8px;background:#ffffff26;border-radius:99px;overflow:hidden;margin:.8rem 0}
+.mission-progress span{display:block;width:0;height:100%;background:var(--gold);transition:width .25s ease}
+.mission-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem}
+.mission-option{border:1px solid #ffffff55;border-radius:.85rem;background:#ffffff0b;color:#fff9e9;padding:1rem;text-align:left;cursor:pointer;min-height:94px}
+.mission-option strong{display:block;color:var(--gold);margin-bottom:.35rem}
+.mission-option:hover,.mission-option:focus-visible{background:#ffffff18;border-color:var(--gold)}
+.mission-option:disabled{cursor:default;opacity:.9}
+.mission-result{background:#ffffff12;border-radius:.75rem;padding:.8rem 1rem;margin-top:.75rem;min-height:52px;color:#f8f3e8}
+@media(max-width:800px){.visual-exhibit{grid-template-columns:1fr 1fr}.exhibit-card:first-child{grid-column:1/-1;min-height:260px}.mission-panel{grid-template-columns:1fr}.mission-options{grid-template-columns:1fr}}
+@media(max-width:520px){.visual-exhibit{grid-template-columns:1fr}.exhibit-card:first-child{grid-column:auto}.exhibit-card{min-height:220px}.mission-options{grid-template-columns:1fr}.mission-option{min-height:68px}}
+
 </style>
 </head>
 <body>
@@ -110,6 +136,17 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 <div><div class="eyebrow">Un territorio, muchas historias</div><h1>El pasado no está perdido. Está esperando que lo exploremos.</h1><p>Viaja por las huellas del poblamiento de Colombia, descubre cómo trabaja la arqueología y aprende a distinguir lo que sabemos de lo que todavía investigamos.</p><div class="actions"><a class="btn primary" href="#tiempo">Comenzar el recorrido <span aria-hidden="true">→</span></a><a class="btn secondary" href="#juega">Ponerme a prueba</a></div></div>
 <div class="hero-art" aria-hidden="true"><div class="sun"></div><div class="mountain"></div><div class="mountain two"></div><div class="river"></div></div>
 </section>
+
+<section class="section" aria-labelledby="galeria-title" style="padding-top:1.5rem">
+<div class="section-head"><div><div class="kicker">Ventanas al pasado</div><h2 id="galeria-title">Mira, observa, haz preguntas</h2></div><p>Las imágenes despiertan preguntas; las fuentes y el contexto ayudan a responderlas.</p></div>
+<div class="visual-exhibit">
+<article class="exhibit-card"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85" alt="Cordillera montañosa con cumbres y valles, imagen ilustrativa del paisaje andino" loading="lazy"><div class="exhibit-copy"><span class="exhibit-tag">Misión 01 · Territorio</span><h3>El paisaje también cuenta historias</h3><p>¿Cómo pudieron cambiar los caminos, los recursos y los asentamientos según el ambiente?</p></div></article>
+<article class="exhibit-card"><img src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=900&q=85" alt="Objeto artesanal de cerámica en primer plano, imagen ilustrativa no atribuida a un yacimiento colombiano" loading="lazy"><div class="exhibit-copy"><span class="exhibit-tag">Misión 02 · Objetos</span><h3>Observa antes de interpretar</h3><p>La forma de un objeto es una pista, no una identidad étnica automática.</p></div></article>
+<article class="exhibit-card"><img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=900&q=85" alt="Detalle de piezas y materiales antiguos, imagen ilustrativa; no corresponde a una colección identificada" loading="lazy"><div class="exhibit-copy"><span class="exhibit-tag">Misión 03 · Evidencias</span><h3>Investiga las pistas</h3><p>Pregunta quién documentó el hallazgo, dónde apareció y qué se fechó.</p></div></article>
+</div>
+<p class="image-note">Nota de rigor: estas fotografías son ilustrativas, no se presentan como piezas arqueológicas colombianas identificadas ni como evidencia de los sitios estudiados.</p>
+</section>
+
 <section class="expedition" aria-label="Ruta recomendada de exploración">
   <div class="expedition-label"><strong>Tu ruta de exploración</strong><span>3 paradas · tú marcas el ritmo</span></div>
   <a class="route-step" href="#tiempo"><span class="route-number">01</span><span><strong>Viaja en el tiempo</strong><small>Ubica el periodo y la región</small></span></a>
@@ -140,6 +177,15 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 <div class="filters"><label class="hidden" for="search-evidence">Buscar evidencias</label><input id="search-evidence" type="search" aria-label="Buscar fichas de evidencia" placeholder="Buscar: El Abra, Tibitó, Pubenza…" autocomplete="off"><label class="hidden" for="status-filter">Filtrar por estado</label><select id="status-filter" aria-label="Filtrar fichas por estado"><option value="all">Todos los estados</option><option value="documented">Fuente identificada</option><option value="debate">Con controversias</option><option value="pending">Lectura pendiente</option></select></div>
 <div class="evidence" id="evidence-list" aria-live="polite"></div>
 </section>
+
+<section class="section" aria-labelledby="mission-title">
+<div class="section-head"><div><div class="kicker">Juego de investigación</div><h2 id="mission-title">Desbloquea tu primera misión</h2></div><p>Lee una afirmación y decide si es un dato documentado, una interpretación o algo que sigue pendiente.</p></div>
+<div class="mission-panel">
+<div><div class="eyebrow">Cuaderno de campo · Nivel 1</div><h3>Detective del pasado</h3><p>Completa las tres decisiones para llenar tu insignia de explorador. No se trata de adivinar: piensa en qué evidencia sostiene la afirmación.</p><div class="mission-progress" role="progressbar" aria-label="Progreso de la misión" aria-valuemin="0" aria-valuemax="3" aria-valuenow="0" id="mission-bar"><span id="mission-fill"></span></div><p id="mission-count" aria-live="polite">0 de 3 decisiones completadas</p></div>
+<div><p id="mission-prompt" style="font-weight:750;color:#fff9e9">En El Abra se publicó una fecha radiocarbónica de una muestra de carbón.</p><div class="mission-options" id="mission-options"><button class="mission-option" type="button" data-choice="dato"><strong>🔎 Dato documentado</strong>La publicación informa una fecha para carbón.</button><button class="mission-option" type="button" data-choice="interpretacion"><strong>🧭 Interpretación</strong>La fecha demuestra que cada herramienta tiene esa edad.</button><button class="mission-option" type="button" data-choice="pendiente"><strong>📓 Pendiente</strong>La relación exacta entre muestra y artefactos debe evaluarse.</button></div><div class="mission-result" id="mission-result" role="status" aria-live="polite">Elige una opción para continuar.</div><button class="btn primary hidden" id="mission-next" type="button" style="margin-top:.7rem">Siguiente pista →</button></div>
+</div>
+</section>
+
 <section class="section" id="juega" aria-labelledby="juega-title">
 <div class="quizbox"><div class="quiz-intro"><div class="kicker">Reto de pensamiento crítico</div><h2 id="juega-title">¿Detectas lo que la evidencia sí demuestra?</h2><p>Contesta, mira la explicación y aprende por qué el contexto importa tanto como el objeto.</p><p class="notice" id="quiz-progress">Pregunta 1 de 3</p><button class="btn light" id="quiz-restart" type="button">Reiniciar reto</button></div><div class="quiz-question"><h3 id="question-text">Cargando pregunta…</h3><div class="answers" id="answer-list"></div><p class="feedback" id="feedback" role="status" aria-live="polite"></p><button class="btn outline hidden" id="quiz-next" type="button" style="margin-top:1rem">Siguiente pregunta →</button></div></div>
 </section>
@@ -172,6 +218,19 @@ function renderEvidence(){const q=document.getElementById('search-evidence').val
 document.getElementById('search-evidence').addEventListener('input',renderEvidence);document.getElementById('status-filter').addEventListener('change',renderEvidence);renderEvidence();
 document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('nav button').forEach(n=>n.removeAttribute('aria-current'));b.setAttribute('aria-current','page');document.getElementById(b.dataset.target).scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}));
 document.querySelectorAll('[data-level]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-level]').forEach(n=>{n.classList.toggle('active',n===b);n.setAttribute('aria-pressed',String(n===b));});document.querySelectorAll('[data-simple]').forEach(p=>p.textContent=p.dataset[b.dataset.level]);}));
+
+const missions=[
+{prompt:"En El Abra se publicó una fecha radiocarbónica para una muestra de carbón.",correct:"dato",why:"Correcto: la publicación informa 12.400 ± 160 años BP para carbón. Esa fecha no data automáticamente cada herramienta."},
+{prompt:"Una secuencia cerámica estudiada en Filandia identifica por sí sola una etnia de toda Colombia.",correct:"interpretacion",why:"Es una interpretación injustificada: una secuencia arqueológica regional no equivale automáticamente a una identidad étnica ni se extrapola a todo el país."},
+{prompt:"Antes de explicar la edad de un objeto, falta comprobar su asociación con la muestra fechada.",correct:"pendiente",why:"Correcto: la procedencia, el contexto estratigráfico y la relación entre muestra y objeto pueden limitar la conclusión."}
+];
+let mi=0,missionScore=0,missionDone=false;
+const missionPrompt=document.getElementById("mission-prompt"),missionOptions=document.getElementById("mission-options"),missionResult=document.getElementById("mission-result"),missionNext=document.getElementById("mission-next"),missionCount=document.getElementById("mission-count"),missionFill=document.getElementById("mission-fill"),missionBar=document.getElementById("mission-bar");
+function showMission(){missionDone=false;const m=missions[mi];missionPrompt.textContent=m.prompt;missionResult.textContent="Elige una opción para continuar.";missionNext.classList.add("hidden");missionOptions.querySelectorAll("button").forEach(b=>{b.disabled=false;b.classList.remove("correct","incorrect");});missionCount.textContent=mi+" de "+missions.length+" decisiones completadas";missionFill.style.width=(mi/missions.length*100)+"%";missionBar.setAttribute("aria-valuenow",String(mi));}
+missionOptions.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{if(missionDone)return;missionDone=true;const m=missions[mi];const right=b.dataset.choice===m.correct;if(right)missionScore++;missionOptions.querySelectorAll("button").forEach(x=>x.disabled=true);missionResult.textContent=(right?"¡Pista resuelta! ":"Vamos a afinar la interpretación. ")+m.why;missionCount.textContent=(mi+1)+" de "+missions.length+" decisiones completadas · "+missionScore+" aciertos";missionFill.style.width=((mi+1)/missions.length*100)+"%";missionBar.setAttribute("aria-valuenow",String(mi+1));missionNext.classList.remove("hidden");missionNext.textContent=mi===missions.length-1?"Ver insignia":"Siguiente pista →";}));
+missionNext.addEventListener("click",()=>{if(mi<missions.length-1){mi++;showMission();}else{missionPrompt.textContent="¡Misión completada!";missionOptions.classList.add("hidden");missionResult.textContent="Insignia de explorador: "+missionScore+" de "+missions.length+". "+(missionScore===missions.length?"¡Gran lectura crítica!":"Puedes repetir el reto y mejorar tu puntuación.");missionNext.textContent="Repetir misión";missionNext.onclick=()=>{mi=0;missionScore=0;missionOptions.classList.remove("hidden");missionNext.onclick=null;showMission();};}});
+showMission();
+
 const quiz=[
 {q:"En El Abra se publicó una fecha radiocarbónica para carbón. ¿Qué demuestra por sí sola?",a:["Que cada herramienta del sitio tiene exactamente esa edad.","Que se fechó una muestra de carbón; su relación con los artefactos debe evaluarse.","Que ya se conoce la fecha exacta de llegada a Colombia."],correct:1,why:"Una fecha mide la muestra analizada. La relación entre esa muestra y un objeto depende del contexto arqueológico y puede ser incierta."},
 {q:"El resumen de Tibitó informa 11.740 ± 110 años BP para fragmentos óseos. ¿Cómo debemos contarlo?",a:["Como fecha directa de todos los artefactos.","Como fecha informada para los huesos; la asociación con los artefactos requiere análisis.","Como una fecha en años de calendario que no necesita aclaración."],correct:1,why:"La ficha debe nombrar el material fechado y no trasladar la edad automáticamente a otros objetos. BP es una convención cronológica que requiere contexto."},
