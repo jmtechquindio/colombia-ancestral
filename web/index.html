@@ -117,6 +117,15 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 @media(max-width:520px){.visual-exhibit{grid-template-columns:1fr}.exhibit-card:first-child{grid-column:auto}.exhibit-card{min-height:220px}.mission-options{grid-template-columns:1fr}.mission-option{min-height:68px}}
 
 
+/* Visita responsable */
+.responsible-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.responsible-card{background:var(--white);border:1px solid var(--line);border-radius:1rem;padding:1.25rem;box-shadow:0 5px 20px #10272508}
+.responsible-symbol{font-size:1.8rem}
+.responsible-card h3{font:1.25rem/1.2 Georgia,serif;margin:.55rem 0}
+.responsible-card p{color:#52665c;margin:.4rem 0 .75rem}
+.responsible-card a{font-weight:750;font-size:.9rem}
+@media(max-width:520px){.responsible-grid{grid-template-columns:1fr}}
+
 /* Atlas lúdico: explora regiones y colecciones documentadas */
 .atlas{display:grid;grid-template-columns:.8fr 1.2fr;gap:1rem;align-items:stretch}
 .atlas-menu{display:grid;gap:.55rem}
@@ -155,6 +164,7 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 <button data-target="atlas">Atlas</button>
 <button data-target="tiempo">Línea del tiempo</button>
 <button data-target="evidencias">Evidencias</button>
+<button data-target="visita">Visita responsable</button>
 <button data-target="juega">Aprende jugando</button>
 <button data-target="fuentes">Fuentes</button>
 </nav>
@@ -212,6 +222,17 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 <p class="image-note">Fuentes institucionales: ICANH y Museo Nacional de Colombia. Los enlaces llevan a sus plataformas; no copiamos ni reutilizamos fotografías sin verificar sus condiciones de uso.</p>
 </section>
 
+<section class="section" id="visita" aria-labelledby="visita-title">
+<div class="section-head"><div><div class="kicker">Patrimonio vivo · Turismo responsable</div><h2 id="visita-title">Explorar también significa cuidar</h2></div><p>Una visita responsable protege los lugares, respeta a las comunidades y consulta información oficial antes de desplazarse.</p></div>
+<div class="responsible-grid">
+<article class="responsible-card"><span class="responsible-symbol" aria-hidden="true">🛡️</span><h3>No extraigas ni compres piezas</h3><p>No recojas fragmentos, no alteres estructuras y no compres objetos que puedan proceder de excavaciones o tráfico ilícito. El patrimonio arqueológico necesita contexto para poder investigarse.</p><a href="https://www.icanh.gov.co/generales/preguntas-frecuentes-3" target="_blank" rel="noopener noreferrer">Orientaciones del ICANH ↗</a></article>
+<article class="responsible-card"><span class="responsible-symbol" aria-hidden="true">🤝</span><h3>Respeta a quienes habitan el territorio</h3><p>Pregunta antes de fotografiar personas o espacios comunitarios. Escucha las normas locales y no presentes a pueblos indígenas o comunidades afrodescendientes como si fueran vestigios del pasado.</p><a href="https://colecciones.icanh.gov.co/" target="_blank" rel="noopener noreferrer">Colección etnográfica del ICANH ↗</a></article>
+<article class="responsible-card"><span class="responsible-symbol" aria-hidden="true">🧭</span><h3>Verifica antes de viajar</h3><p>Consulta con el parque o la autoridad responsable las condiciones de acceso, horarios, cierres, guías autorizados y restricciones vigentes. Esta página educativa no confirma disponibilidad ni condiciones de ingreso.</p><a href="https://parquesicanh.icanh.gov.co/" target="_blank" rel="noopener noreferrer">Portal oficial de parques ↗</a></article>
+<article class="responsible-card"><span class="responsible-symbol" aria-hidden="true">📚</span><h3>Investiga desde fuentes documentadas</h3><p>Las colecciones digitales permiten estudiar registros y procedencias. Algunos registros están en revisión y las imágenes pueden tener condiciones de uso específicas; comprueba cada ficha antes de reutilizarlas.</p><a href="https://colecciones.museonacional.gov.co/" target="_blank" rel="noopener noreferrer">Colecciones en línea del Museo Nacional ↗</a></article>
+</div>
+<p class="callout" style="margin-top:1rem"><strong>Regla del museo:</strong> no divulgamos coordenadas sensibles de sitios arqueológicos ni confundimos parecidos entre objetos con prueba de identidad étnica. La conservación y el consentimiento importan tanto como la curiosidad.</p>
+</section>
+
 <section class="section" id="tiempo" aria-labelledby="tiempo-title">
 <div class="section-head"><div><div class="kicker">Recorrido cronológico</div><h2 id="tiempo-title">Una línea del tiempo con preguntas</h2></div><div class="level-toggle" aria-label="Nivel de explicación"><span class="notice">Nivel:</span><button class="active" data-level="simple" aria-pressed="true">Claro y breve</button><button data-level="deep" aria-pressed="false">Profundizar</button></div></div>
 <div class="callout"><strong>Importante:</strong> las fechas y secuencias dependen del lugar, del material analizado y del método. Esta es una entrada al tema, no una cronología completa de Colombia.</div>
@@ -258,10 +279,10 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 <script>
 
 const atlasData={
-magdalena:{symbol:"🗿",kicker:"Región 01 · Andes del sur",name:"Alto Magdalena · San Agustín",description:"Explora el paisaje arqueológico, la escultura monumental y los contextos funerarios del Alto Magdalena. Las interpretaciones deben apoyarse en la documentación de cada sitio.",caution:"La ficha es una introducción; no sustituye la información oficial del parque ni representa a una sola comunidad actual.",url:"https://parquesicanh.icanh.gov.co/portfolio/san-agustin/"},
+magdalena:{symbol:"🗿",kicker:"Región 01 · Andes del sur",name:"Alto Magdalena · San Agustín",description:"Explora el paisaje arqueológico, la escultura monumental y los contextos funerarios del Alto Magdalena. Las interpretaciones deben apoyarse en la documentación de cada sitio.",caution:"La ficha es una introducción; no sustituye la información oficial del parque ni representa a una sola comunidad actual.",url:"https://parquesicanh.icanh.gov.co/portfolio/explorando-el-macizo-colombiano/"},
 tierradentro:{symbol:"🪨",kicker:"Región 02 · Macizo colombiano",name:"Tierradentro · arquitectura funeraria",description:"Conoce los hipogeos, la arquitectura excavada y las pinturas documentadas en este paisaje cultural. Distingue las descripciones arqueológicas de las interpretaciones sobre su significado.",caution:"El acceso a ciertos lugares y las normas de conservación deben consultarse con el parque y las autoridades responsables.",url:"https://parquesicanh.icanh.gov.co/portfolio/tierradentro-parque-arqueologico/"},
 sierra:{symbol:"🌿",kicker:"Región 03 · Sierra Nevada de Santa Marta",name:"Teyuna · caminos y montaña",description:"Explora la ciudad arqueológica y los caminos de montaña, atendiendo a la conservación del lugar y a la relación con pueblos indígenas actuales.",caution:"No se deben inferir identidades o continuidades culturales simples solo por semejanzas materiales; incorpora las voces comunitarias.",url:"https://parquesicanh.icanh.gov.co/portfolio/teyuna-ciudad-perdida/"},
-caribe:{symbol:"🌊",kicker:"Región 04 · Caribe colombiano",name:"Santa María de la Antigua del Darién",description:"Investiga los contactos, transformaciones y conflictos que marcaron los primeros asentamientos coloniales europeos en Tierra Firme, contrastando fuentes arqueológicas e históricas.",caution:"La historia regional incluye perspectivas indígenas, afrodescendientes y europeas que no deben reducirse a una sola narración.",url:"https://parquesicanh.icanh.gov.co/"}
+caribe:{symbol:"🌊",kicker:"Región 04 · Caribe colombiano",name:"Santa María de la Antigua del Darién",description:"Investiga los contactos, transformaciones y conflictos que marcaron los primeros asentamientos coloniales europeos en Tierra Firme, contrastando fuentes arqueológicas e históricas.",caution:"La historia regional incluye perspectivas indígenas, afrodescendientes y europeas que no deben reducirse a una sola narración.",url:"https://parquesicanh.icanh.gov.co/smladd-home/"}
 };
 document.querySelectorAll("[data-atlas]").forEach(button=>button.addEventListener("click",()=>{const d=atlasData[button.dataset.atlas];document.querySelectorAll("[data-atlas]").forEach(b=>b.setAttribute("aria-pressed",String(b===button)));document.getElementById("atlas-symbol").textContent=d.symbol;document.getElementById("atlas-kicker").textContent=d.kicker;document.getElementById("atlas-name").textContent=d.name;document.getElementById("atlas-description").textContent=d.description;document.getElementById("atlas-caution").textContent=d.caution;document.getElementById("atlas-official").href=d.url;}));
 
