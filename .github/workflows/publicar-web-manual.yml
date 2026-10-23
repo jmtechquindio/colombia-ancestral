@@ -1,0 +1,37 @@
+name: Publicar COLOMBIA ANCESTRAL (requiere aprobación explícita)
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_publication:
+        description: "Confirmo que quiero hacer público el sitio web"
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  publication-gate:
+    if: ${{ inputs.confirm_publication == true }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Preparar solamente los archivos públicos del sitio
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - name: Publicar sitio (solo tras confirmar)
+        id: deployment
+        uses: actions/deploy-pages@v4
