@@ -35,3 +35,13 @@ Los autores advierten expresamente que, dado el tipo de transectos y sondeos, el
 
 “Peñones de Bogotá, en Puerto Berrío (Antioquia), forma parte de la investigación sobre ocupaciones precerámicas del Magdalena Medio. Sus autores presentaron resultados radiocarbónicos, pero calificaron las interpretaciones como preliminares debido al número limitado de fechas y a la amplitud temporal del problema”.
 
+
+
+## Intento de recuperación adicional — 22 de octubre de 2026
+
+Se reintentó acceder al PDF desde la página oficial de Banrepcultural y desde el índice del volumen 8(1). El portal devolvió un bloqueo de acceso (403) a la herramienta de lectura; por ello no fue posible revisar el artículo íntegro. La ficha oficial sí muestra el resumen citado arriba y confirma que el artículo ocupa las páginas impresas 13–25 del número de 1993.
+
+**Consecuencia editorial:** se mantiene el estado «metadatos y resumen institucional verificados; texto completo pendiente». No se copian fechas, códigos de laboratorio ni nombres de muestras a partir de fuentes secundarias. La prioridad de recuperación es una copia legible y autorizada, seguida de transcripción de las tablas originales.
+
+Fuente institucional: https://publicaciones.banrepcultural.org/index.php/fian/article/view/5438
+Índice del volumen: https://publicaciones.banrepcultural.org/index.php/fian/issue/view/216
