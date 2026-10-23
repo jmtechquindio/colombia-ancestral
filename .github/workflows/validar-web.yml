@@ -34,12 +34,12 @@ jobs:
           if (!files.length) throw new Error('No se encontraron páginas HTML.');
           for (const file of files) {
             const html = fs.readFileSync('web/' + file, 'utf8');
-            const scripts = [...html.matchAll(/<script\\b[^>]*>([\\s\\S]*?)<\\/script>/gi)];
-            for (let i = 0; i < scripts.length; i++) new vm.Script(scripts[i][1], { filename: `${file}:script-${i + 1}` });
+            const scripts = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)];
+            for (let i = 0; i < scripts.length; i++) new vm.Script(scripts[i][1], { filename: file + ':script-' + (i + 1) });
             if (!/^<!doctype html>/i.test(html.trim())) throw new Error(file + ': falta <!doctype html>');
-            if (!/<html\\b[^>]*lang="es"/i.test(html)) throw new Error(file + ': falta idioma español en html');
-            if (!/<meta\\s+name="viewport"/i.test(html)) throw new Error(file + ': falta meta viewport');
-            if (!/<title>[^<]+<\\/title>/i.test(html)) throw new Error(file + ': falta un título de página descriptivo');
+            if (!/<html\b[^>]*lang="es"/i.test(html)) throw new Error(file + ': falta idioma español en html');
+            if (!/<meta\s+name="viewport"/i.test(html)) throw new Error(file + ': falta meta viewport');
+            if (!/<title>[^<]+<\/title>/i.test(html)) throw new Error(file + ': falta un título de página descriptivo');
             console.log('OK:', file, '-', scripts.length, 'bloques JavaScript revisados');
           }
           NODE
@@ -70,15 +70,12 @@ jobs:
                       self.images.append(a)
                   if tag == 'h1':
                       self.h1 += 1
-              def handle_data(self, data):
-                  pass
 
           root=Path('web')
           errors=[]
           for page in sorted(root.glob('*.html')):
-              html=page.read_text(encoding='utf-8')
               parser=Audit()
-              parser.feed(html)
+              parser.feed(page.read_text(encoding='utf-8'))
               for href,aria,title in parser.links:
                   u=urlparse(href)
                   if href.startswith(('#','mailto:','tel:')) or u.scheme or u.netloc:
@@ -97,12 +94,9 @@ jobs:
                   errors.append(f'{page}: control <{tag}> sin etiqueta accesible (id/label o aria-label)')
               if parser.h1 != 1:
                   errors.append(f'{page}: se esperaba un único h1; encontrados {parser.h1}')
-              for href,aria,title in parser.links:
-                  # La verificación de nombres de enlace completos requiere análisis del texto interno; el test comprueba los casos vacíos.
-                  pass
               print(f'REVISADO: {page} | h1={parser.h1} | enlaces={len(parser.links)} | controles={len(parser.controls)} | imágenes={len(parser.images)}')
           if errors:
-              print('\\n'.join(errors))
+              print('\n'.join(errors))
               raise SystemExit(1)
           print('OK: enlaces locales, imágenes con alt, etiquetas de controles y un h1 por página')
           PY
