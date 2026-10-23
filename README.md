@@ -15,6 +15,10 @@ Base documental para investigar y divulgar la arqueología, el poblamiento ances
 
 La primera fase documentará las fuentes institucionales y académicas relacionadas con el departamento del Quindío. Las menciones históricas de sitios y los conteos antiguos no se tratarán como inventario actual hasta cotejarlos con los registros vigentes del ICANH y sus informes de soporte.
 
+## Orden cronológico de investigación
+
+La ruta de trabajo inicia con el poblamiento temprano y sus controversias, continúa con las adaptaciones del Holoceno, agricultura y cerámica, sociedades regionales del Cauca Medio/Quindío, grupos nombrados en fuentes históricas, contacto colonial y etnoturismo responsable. Ver [cronología de poblamiento y grupos](docs/cronologia_poblamiento_y_grupos.md). La cronología marca explícitamente los datos discutidos y no convierte tradiciones arqueológicas en etnias sin evidencia.
+
 ## Estructura prevista
 
 - `data/`: tablas de inventario y fuentes, con estado de verificación.
@@ -29,6 +33,7 @@ La primera fase documentará las fuentes institucionales y académicas relaciona
 - `preliminar`: mención en fuente secundaria o referencia aún no cotejada.
 - `pendiente`: requiere consulta o evidencia adicional.
 - `descartado`: no debe usarse como afirmación; conservar nota de por qué se descartó.
+- `metadatos_localizados_contenido_pendiente`: se localizó la ficha bibliográfica, pero falta revisar íntegramente el texto y cotejar sus fuentes.
 
 ## Nota
 
