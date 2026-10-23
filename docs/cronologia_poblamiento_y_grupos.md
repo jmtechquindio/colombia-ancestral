@@ -121,3 +121,8 @@ La ficha debe usarse como **índice para localizar referencias**, no como invent
 Fuentes oficiales:
 - ICANH, *Información temática sobre bibliografía arqueológica en siete zonas de Colombia*: https://publicaciones.icanh.gov.co/index.php/picanh/catalog/book/156
 - ICANH, convocatoria de investigación en la cuenca media del río Cauca (2025): https://www.icanh.gov.co/prensa/actualidad-icanh/ya-esta-abierta-la-convocatoria-estimulos-en-arqueologia-en-la-cuenca-media-del-rio-cauca
+
+
+## Plan operativo para la siguiente etapa
+
+Se creó el [Plan de lectura 01 — Holoceno, uso de plantas y transición a sociedades regionales](plan_lecturas_holoceno_01.md). Ordena la lectura de Aguazuque, Checua/Nemocón, La Pochola, Hoya del Quindío y Filandia/PARQUIM, y especifica qué datos extraer sin confundir uso de plantas con domesticación ni extrapolar secuencias regionales.
