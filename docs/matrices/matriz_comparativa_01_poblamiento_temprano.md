@@ -65,3 +65,15 @@ Se consultó directamente el texto completo en SciELO de Aceituno y Rojas-Mora (
 ### Estado tras el cotejo
 
 La revisión de Aceituno y Rojas-Mora (2015) está consultada en texto completo. Las fichas primarias de El Abra y Tibitó se han localizado institucionalmente, pero aún debe leerse y extraerse el texto íntegro de cada una, página por página, antes de marcar sus contextos como plenamente verificados. Pubenza y El Jordán siguen pendientes de cotejo primario y evaluación de las controversias.
+
+
+## Corrección crítica tras leer la fuente primaria de El Abra (1977)
+
+La lectura del artículo completo de Correal Urrego, van der Hammen y Hurt (1977) permite afinar el registro de El Abra. La fecha GrN-5556 de 12.400 ± 160 AP corresponde a **carbón vegetal** del abrigo 2, entre 1,50 y 1,75 m de profundidad; no es una datación directa de las lascas. Los autores también señalan que la ausencia de lascas a la misma profundidad en trincheras adyacentes vuelve dudosa parte de la asociación con C3, y discuten desplazamientos potenciales de materiales por fisuras o actividad animal. La conversión a 10.450 a. C. que aparece en la publicación de 1977 es una conversión histórica, no una calibración moderna.
+
+Por ello, la frase de la matriz inicial que vincula de manera compacta “37 lascas y fauna holocena” con la fecha debe entenderse como resumen de la literatura secundaria de 2015, no como descripción exhaustiva de la fuente primaria. Para el uso futuro del proyecto, prevalece la descripción contextual de la fuente primaria y se evita afirmar que las lascas fueron datadas directamente.
+
+Fuente primaria y ficha de lectura:
+- Correal Urrego, van der Hammen y Hurt (1977), texto completo: https://revistas.unal.edu.co/index.php/revistaun/article/download/12303/12919/31470
+- [Ficha 06 — El Abra: fuente primaria de 1977](../fichas_evidencia/06_el_abra_fuente_primaria_1977.md)
+
