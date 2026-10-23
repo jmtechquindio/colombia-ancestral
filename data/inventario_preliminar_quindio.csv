@@ -1,0 +1,2 @@
+record_id,nombre_reportado,municipio,departamento,tipo_registro,descripcion_fuente,periodo_o_fecha,fuente_id,pagina_o_seccion,estado_verificacion,tipo_evidencia,ubicacion_publica_segura,acceso_publico_verificado,derechos_y_permisos,notas_y_pendientes
+QND-0001,,,,referencia documental,,,,,pendiente,,,,,Plantilla inicial: no constituye un sitio validado. Añadir registros solo con referencia rastreable y ubicación segura.
