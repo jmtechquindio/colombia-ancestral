@@ -76,9 +76,10 @@ El prototipo es estático y autocontenido; no requiere cuentas, claves, servicio
 - [Museo virtual](web/index.html): línea del tiempo, fichas con filtros y cuestionario didáctico.
 - [Aula docente](web/aula-docente.html): actividades por nivel y plantilla para analizar evidencias.
 - [Glosario interactivo](web/glosario.html): conceptos básicos de arqueología, cronología y patrimonio.
+- [Fuentes y bibliografía comentada](web/fuentes.html): referencias académicas e institucionales, límites de consulta y líneas pendientes.
+- [Lista de preparación para publicar](docs/checklist_publicacion_web.md): controles editoriales, técnicos, de accesibilidad y aprobación previa.
 - [Accesibilidad, privacidad y uso responsable](web/accesibilidad.html).
 - [Página de error 404](web/404.html) para rutas inexistentes.
-- [Accesibilidad, privacidad y uso responsable](web/accesibilidad.html).
 - [Validación automática](.github/workflows/validar-web.yml): revisa sintaxis JavaScript incrustada y enlaces locales; no publica el sitio.
 - [Publicación manual con control de aprobación](.github/workflows/publicar-web-manual.yml): solo puede iniciar manualmente y requiere marcar explícitamente la confirmación. No se ha ejecutado ni se ha publicado el sitio.
 
