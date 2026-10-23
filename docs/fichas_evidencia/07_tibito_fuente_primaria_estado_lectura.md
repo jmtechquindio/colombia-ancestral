@@ -32,3 +32,12 @@ La página institucional fue consultada. El enlace al PDF devolvió un error té
 ## Fórmula provisional de divulgación
 
 “El resumen institucional de Correal (1982) reporta en Tibitó 1 artefactos asociados con megafauna y restos óseos fechados en 11.740 ± 110 BP; la evaluación completa del contexto y de la asociación requiere cotejar el artículo íntegro”.
+
+
+## Ruta alternativa de repositorio y advertencia de licencia — 22 de octubre de 2026
+
+El registro de RedCol/Minciencias identifica el repositorio institucional de la Universidad Nacional con OAI identifier `oai:repositorio.unal.edu.co:unal/44463` y expone el archivo PDF `34729-135238-1-PB.pdf`. El registro de metadatos indica un tamaño de 23.663.104 bytes y reporta licencia CC BY-NC 4.0; la página de *Caldasia* muestra CC BY 4.0. Como las indicaciones de licencia no coinciden, no redistribuir el archivo ni sus imágenes hasta aclarar los términos aplicables. La lectura automatizada sigue sin poder procesar el PDF por tamaño; la ruta alternativa está localizada, pero no convierte el artículo en una fuente ya leída.
+
+- Registro RedCol/Minciencias: https://redcol.minciencias.gov.co/Record/UNACIONAL2_4da6caf2ecc17aeac14816910eec42e6
+- PDF directo del repositorio: https://repositorio.unal.edu.co/bitstream/unal/44463/1/34729-135238-1-PB.pdf
+- Registro de la revista: https://revistas.unal.edu.co/index.php/cal/article/view/34729
