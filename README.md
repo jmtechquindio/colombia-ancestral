@@ -34,6 +34,10 @@ La ruta de trabajo inicia con el poblamiento temprano y sus controversias, conti
 - [Ficha 04 — Arqueología y diversidad étnica actual](docs/fichas_evidencia/04_puente_arqueologia_diversidad_etnica_actual.md): marco para usar el Atlas del ICANH y datos del DANE sin confundir tradiciones arqueológicas con pueblos vivos.
 - [Ficha 05 — Síntesis crítica del poblamiento temprano](docs/fichas_evidencia/05_sinopsis_poblamiento_temprano_delgado_2017.md): lectura de Miguel Delgado (2017), con límites cronológicos, vacíos regionales y tareas de cotejo primario.
 
+## Matrices comparativas
+
+- [Matriz comparativa 01 — Poblamiento temprano de Colombia](docs/matrices/matriz_comparativa_01_poblamiento_temprano.md): contrasta El Abra, Tibitó, Tequendama, Pubenza 3, El Jordán y El Jazmín; explicita qué está reportado y qué requiere cotejo primario.
+
 ## Estados de verificación
 
 - `verificado`: respaldado por una fuente primaria o institucional comprobada.
