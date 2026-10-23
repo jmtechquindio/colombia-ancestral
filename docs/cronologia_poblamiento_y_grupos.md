@@ -27,16 +27,17 @@ Las fechas corresponden a contextos concretos, no a la llegada definitiva de un 
 ### 3. El Abra — Sabana de Bogotá
 - **Fecha clásica publicada:** 12.400 ± 160 años AP para un nivel del sitio.
 - **Evidencia:** secuencia estratificada con instrumentos líticos y análisis del contexto sedimentario.
-- **Cautela:** una revisión de colecciones líticas y cronología publicada en 2021 identifica problemas que afectan algunas interpretaciones. Presentar la fecha como datación publicada, no como dato libre de debate.
-- **Estado:** referencia académica identificada; cronología e interpretación requieren lectura crítica.
-- **Fuentes:** https://www.sciencedirect.com/science/article/abs/pii/S1040618220303141 ; Resolución 304 de 2018 sobre el área arqueológica protegida del Valle del Abra: https://normograma.mincultura.gov.co/compilacion/docs/resolucion_icanh_0304_2018.htm
+- **Revisión crítica:** Muttillo, Lleras Pérez, Rufo y Lembo (2021) reexaminaron las colecciones históricas y señalaron discrepancias metodológicas, interpretativas y cronoestratigráficas; sus resultados proponen que la cronología del sitio sería al menos 3.000 años más reciente de lo que se había supuesto.
+- **Conclusión provisional:** no comunicar 12.400 AP como fecha definitivamente establecida. Presentar la datación clásica y explicar explícitamente la revisión crítica, hasta estudiar el artículo completo y contrastarlo con los informes originales.
+- **Estado:** controversia documentada; revisión primaria pendiente.
+- **Fuentes:** registro académico y resumen de la revisión: https://usiena-air.unisi.it/handle/11365/1223718 ; Resolución 304 de 2018 sobre el área arqueológica protegida del Valle del Abra: https://normograma.mincultura.gov.co/compilacion/docs/resolucion_icanh_0304_2018.htm
 
 ### 4. Tibitó — Tocancipá
-- **Fecha publicada:** aproximadamente 11.740 ± 110 años AP en bibliografía académica.
-- **Evidencia descrita:** artefactos líticos y restos de fauna pleistocénica en contexto arqueológico.
-- **Cautela:** para afirmar actividades específicas hay que comprobar el informe primario y la asociación exacta entre materiales.
-- **Estado:** referencia académica localizada; cotejo primario pendiente.
-- **Pista bibliográfica:** Muttillo y colaboradores (2014), registro académico de la Universidad de Siena: https://usiena-air.unisi.it/handle/11365/1223830
+- **Fecha publicada:** 11.740 ± 110 años AP, informada por Gonzalo Correal Urrego (1982).
+- **Evidencia descrita:** el artículo reporta artefactos de piedra y hueso asociados a restos de mastodontes, caballo americano y venado; señala que fragmentos óseos fueron fechados por radiocarbono.
+- **Cautela:** la asociación descrita en el artículo es una afirmación de la publicación original; para reconstruir actividad humana concreta o revisar la asociación tafonómica se requiere leer el PDF completo y considerar estudios posteriores.
+- **Estado:** publicación primaria identificada y resumen consultado; lectura completa pendiente.
+- **Fuente primaria accesible:** Correal Urrego (1982), *Caldasia*: https://revistas.unal.edu.co/index.php/cal/article/view/34729
 
 ### 5. La Lindosa y otros contextos amazónicos
 - **Regla de datación:** la fecha de ocupación de un abrigo no fecha automáticamente las pinturas rupestres. Cada afirmación debe identificar qué material fue fechado y qué relación tiene con el arte rupestre.
@@ -97,3 +98,11 @@ Cada ficha debe incluir pregunta de investigación, afirmación concreta, autor 
 5. Resolución 304 de 2018, área arqueológica protegida del Valle del Abra. https://normograma.mincultura.gov.co/compilacion/docs/resolucion_icanh_0304_2018.htm
 
 **Nota de validación:** localizar una referencia bibliográfica no significa que se haya leído íntegramente ni que cada dato se haya comprobado de forma independiente. Los casos controvertidos no deben convertirse en afirmaciones categóricas para videos hasta revisar textos completos y fuentes primarias.
+
+
+## Resultado de la primera ronda de verificación (22 de octubre de 2026)
+
+- **Tibitó:** ya se identificó el artículo de Gonzalo Correal Urrego publicado en *Caldasia* en 1982; el registro institucional de la Universidad Nacional confirma autor, fecha, resumen y licencia CC BY 4.0. La fecha de 11.740 ± 110 AP es una fecha publicada para fragmentos óseos, no una datación directa de cada artefacto.
+- **El Abra:** el registro académico de la Universidad de Siena contiene el resumen de Muttillo et al. (2021), que informa discrepancias en las colecciones y propone una cronología al menos 3.000 años más reciente que la previamente asumida. Por tanto, la cifra clásica de 12.400 ± 160 AP debe comunicarse como datación histórica discutida.
+- **Pubenza 3 y El Jordán:** una revisión de 2021 afirma que sus fechas anteriores a 12.500 AP no son aceptadas unánimemente; quedan en categoría controvertida, no como “primer poblamiento” establecido.
+- **Límite de esta revisión:** se verificaron metadatos y resúmenes institucionales accesibles, pero no se ha completado la lectura de todos los artículos ni el cotejo de todos los informes de excavación. No se declara cerrada la etapa.
