@@ -41,3 +41,27 @@
 ## Próxima acción
 
 La siguiente versión debe sustituir los datos secundarios por datos extraídos de las publicaciones primarias, añadir páginas y tablas exactas, identificar el material fechado y separar fechas convencionales de calibradas. Solo después de ese cotejo se podrá asignar un estado más firme a cada caso.
+
+
+## Actualización 22-10-2026 — cotejo bibliográfico adicional
+
+Se consultó directamente el texto completo en SciELO de Aceituno y Rojas-Mora (2015), no solo su resumen. Esta lectura permite precisar y corregir el estado de varios casos:
+
+- **El Abra:** la síntesis describe 37 lascas de chert y fauna holocena (sin especies extintas) en el contexto referido a 12.400 ± 160 BP (GrN-5556). La fecha calibrada 13.236–12.121 cal BC es la que reporta el artículo de 2015, no una recalibración independiente realizada por este proyecto.
+- **Tibitó:** la revisión de 2015 describe herramientas líticas asociadas a restos de mastodonte, caballo americano y venado, con restos fechados en 11.740 ± 110 BP (GrN-9375), y remite a Correal (1982). El registro bibliográfico y resumen de Correal (1982) está disponible en la revista *Caldasia* de la Universidad Nacional. Para afirmar qué actividad humana ocurrió, hay que revisar el argumento del artículo completo; asociación no equivale por sí sola a demostrar que cada animal fue cazado.
+- **Tequendama:** la revisión de 2015 señala una secuencia estratigráfica temprana entre aproximadamente 12.500 BP y 10.920 ± 260 BP (GrN-6539), y describe tecnología llamada Tequendamiense. El artículo también señala que se ha cuestionado la separación estricta entre las categorías Abriense y Tequendamiense, dado que podrían corresponder a grupos contemporáneos o relacionados.
+- **Pubenza:** la revisión de 2015 describe ocho herramientas unifaciales en una matriz arcillosa y una fecha de 16.400 ± 420 BP (GrN-19857), en una secuencia con restos de mastodonte y otros animales. Los autores reconocen el debate sobre el sitio; esta ficha no lo declara resuelto. Una síntesis académica posterior señala que el problema central debatido es la asociación estratigráfica entre los artefactos y la fauna, no simplemente si los objetos muestran talla.
+- **El Jordán:** una síntesis académica posterior reporta dos fechas de una misma unidad (12.910 ± 60 BP y 9.760 ± 160 BP) y solo seis artefactos, dos con señales claras de talla. La diferencia entre fechas y la escasez de materiales exigen mantener el caso como controvertido, no convertirlo en una fecha firme de ocupación.
+
+### Fuentes verificadas en esta actualización
+
+- Aceituno, F. J. y Rojas-Mora, S. (2015). “Estudios de la tecnología lítica en Colombia entre el Pleistoceno final y el Holoceno temprano”. *Chungara* 47(1): 13–23. Texto completo: https://www.scielo.cl/scielo.php?pid=S0717-73562015000100003&script=sci_arttext
+- Correal Urrego, G. (1977), van der Hammen, T. y Hurt, W. R. “La ecología y tecnología de los abrigos rocosos en El Abra, Sabana de Bogotá, Colombia”. *Revista de la Universidad Nacional* 15: 77–99. Registro institucional: https://revistas.unal.edu.co/index.php/revistaun/article/view/12303
+- Correal Urrego, G. (1982). “Restos de megafauna asociadas a artefactos en la Sabana de Bogotá”. *Caldasia* 13(64): 487–547. Registro institucional: https://revistas.unal.edu.co/index.php/cal/article/view/34729
+- Correal Urrego, G. (1993). “Nuevas evidencias culturales pleistocénicas y megafauna en Colombia”. *Boletín de Arqueología de la FIAN* 8(1): 3–12. Registro y resumen: https://publicaciones.banrepcultural.org/index.php/fian/article/view/5437
+- Delgado Burbano, M. E. (2017). “Sinopsis de la arqueología y la bioantropología del poblamiento temprano del noroccidente de Sudamérica”. *Revista Colombiana de Antropología* 53(1): 213–239. Registro y texto: https://revistas.icanh.gov.co/index.php/rca/article/view/9/8
+- “El poblamiento temprano y las sociedades precerámicas del valle del Cauca” (síntesis alojada por MUSA; consultar bibliografía completa en el PDF): https://musa.com.co/calima/TextoInvestigadorCalima.pdf
+
+### Estado tras el cotejo
+
+La revisión de Aceituno y Rojas-Mora (2015) está consultada en texto completo. Las fichas primarias de El Abra y Tibitó se han localizado institucionalmente, pero aún debe leerse y extraerse el texto íntegro de cada una, página por página, antes de marcar sus contextos como plenamente verificados. Pubenza y El Jordán siguen pendientes de cotejo primario y evaluación de las controversias.
