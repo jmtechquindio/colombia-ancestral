@@ -116,6 +116,32 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 @media(max-width:800px){.visual-exhibit{grid-template-columns:1fr 1fr}.exhibit-card:first-child{grid-column:1/-1;min-height:260px}.mission-panel{grid-template-columns:1fr}.mission-options{grid-template-columns:1fr}}
 @media(max-width:520px){.visual-exhibit{grid-template-columns:1fr}.exhibit-card:first-child{grid-column:auto}.exhibit-card{min-height:220px}.mission-options{grid-template-columns:1fr}.mission-option{min-height:68px}}
 
+
+/* Atlas lúdico: explora regiones y colecciones documentadas */
+.atlas{display:grid;grid-template-columns:.8fr 1.2fr;gap:1rem;align-items:stretch}
+.atlas-menu{display:grid;gap:.55rem}
+.atlas-button{display:flex;gap:.75rem;align-items:center;text-align:left;padding:.85rem 1rem;border:1px solid var(--line);border-radius:.85rem;background:var(--white);color:var(--ink);cursor:pointer}
+.atlas-button[aria-pressed="true"]{background:#e3ecdf;border-color:#668b70;box-shadow:inset 4px 0 #356b54}
+.atlas-button .atlas-icon{font-size:1.45rem}
+.atlas-button strong{display:block}
+.atlas-button small{display:block;color:var(--muted)}
+.atlas-detail{background:var(--white);border:1px solid var(--line);border-radius:1.1rem;overflow:hidden;display:grid;grid-template-columns:.85fr 1.15fr;min-height:310px}
+.atlas-art{background:linear-gradient(155deg,#315b4b,#102b28);color:#f7e9c9;display:grid;place-items:center;padding:1rem;position:relative;overflow:hidden}
+.atlas-art:before,.atlas-art:after{content:"";position:absolute;border:1px solid #f1d59b55;border-radius:50%;width:230px;height:230px}
+.atlas-art:after{width:165px;height:165px}
+.atlas-art span{font-size:5rem;z-index:1;filter:drop-shadow(0 5px 10px #0004)}
+.atlas-copy{padding:1.3rem}
+.atlas-copy h3{font:1.7rem/1.1 Georgia,serif;margin:.35rem 0 .7rem}
+.atlas-copy p{color:var(--muted)}
+.atlas-links{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}
+.collection-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:1rem}
+.collection-card{padding:1.15rem;background:var(--white);border:1px solid var(--line);border-radius:1rem}
+.collection-card .symbol{font-size:1.8rem}
+.collection-card h3{font:1.2rem Georgia,serif;margin:.45rem 0}
+.collection-card p{font-size:.9rem;color:var(--muted)}
+@media(max-width:800px){.atlas{grid-template-columns:1fr}.atlas-menu{grid-template-columns:1fr 1fr}.atlas-detail{grid-template-columns:1fr}.atlas-art{min-height:150px}.atlas-art span{font-size:3.5rem}.collection-strip{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.atlas-menu,.collection-strip{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -126,6 +152,7 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 </header>
 <nav aria-label="Navegación principal">
 <button data-target="inicio" aria-current="page">Inicio</button>
+<button data-target="atlas">Atlas</button>
 <button data-target="tiempo">Línea del tiempo</button>
 <button data-target="evidencias">Evidencias</button>
 <button data-target="juega">Aprende jugando</button>
@@ -162,6 +189,29 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 <article class="card"><div class="symbol" aria-hidden="true">Aa</div><h3>Glosario interactivo</h3><p>Consulta conceptos de arqueología, datación y patrimonio en un lenguaje claro.</p><a href="glosario.html">Explorar conceptos →</a></article>
 </div>
 </section>
+
+<section class="section" id="atlas" aria-labelledby="atlas-title">
+<div class="section-head"><div><div class="kicker">Atlas de exploración</div><h2 id="atlas-title">Elige una región para investigar</h2></div><p>Un primer mapa conceptual, no un inventario completo. Abre las fuentes institucionales para conocer los parques y sus contextos.</p></div>
+<div class="atlas">
+<div class="atlas-menu" role="group" aria-label="Selecciona una región arqueológica">
+<button class="atlas-button" type="button" data-atlas="magdalena" aria-pressed="true"><span class="atlas-icon">⛰️</span><span><strong>Alto Magdalena</strong><small>San Agustín</small></span></button>
+<button class="atlas-button" type="button" data-atlas="tierradentro" aria-pressed="false"><span class="atlas-icon">🪨</span><span><strong>Tierradentro</strong><small>Hipogeos y paisaje</small></span></button>
+<button class="atlas-button" type="button" data-atlas="sierra" aria-pressed="false"><span class="atlas-icon">🌿</span><span><strong>Sierra Nevada</strong><small>Teyuna y caminos</small></span></button>
+<button class="atlas-button" type="button" data-atlas="caribe" aria-pressed="false"><span class="atlas-icon">🌊</span><span><strong>Caribe</strong><small>Darién y litoral</small></span></button>
+</div>
+<article class="atlas-detail" aria-live="polite">
+<div class="atlas-art" aria-hidden="true"><span id="atlas-symbol">🗿</span></div>
+<div class="atlas-copy"><div class="kicker" id="atlas-kicker">Región 01 · Andes del sur</div><h3 id="atlas-name">Alto Magdalena · San Agustín</h3><p id="atlas-description">Explora el paisaje arqueológico, la escultura monumental y los contextos funerarios del Alto Magdalena. Las interpretaciones deben apoyarse en la documentación de cada sitio.</p><p class="notice" id="atlas-caution">La ficha es una introducción; no sustituye la información oficial del parque ni representa a una sola comunidad actual.</p><div class="atlas-links"><a class="btn light" id="atlas-official" href="https://parquesicanh.icanh.gov.co/" target="_blank" rel="noopener noreferrer">Explorar fuente oficial ↗</a><a class="btn outline" href="https://colecciones.museonacional.gov.co/" target="_blank" rel="noopener noreferrer">Ver colecciones ↗</a></div></div>
+</article>
+</div>
+<div class="collection-strip">
+<article class="collection-card"><div class="symbol" aria-hidden="true">🏺</div><h3>Objetos arqueológicos</h3><p>Consulta registros de cerámica, líticos y otros materiales; revisa título, procedencia, datación y número de registro cuando estén disponibles.</p><a href="https://colecciones.museonacional.gov.co/list-object.php?coleccion=Arqueolog%C3%ADa&page=1" target="_blank" rel="noopener noreferrer">Abrir colección arqueológica ↗</a></article>
+<article class="collection-card"><div class="symbol" aria-hidden="true">🧵</div><h3>Objetos etnográficos</h3><p>Los objetos siguen teniendo significados vivos. Las voces y perspectivas de las comunidades importan junto con la documentación del museo.</p><a href="https://colecciones.icanh.gov.co/" target="_blank" rel="noopener noreferrer">Explorar colección etnográfica ICANH ↗</a></article>
+<article class="collection-card"><div class="symbol" aria-hidden="true">🧭</div><h3>Parques arqueológicos</h3><p>Conoce los espacios gestionados institucionalmente y sus orientaciones para visitar y proteger el patrimonio.</p><a href="https://parquesicanh.icanh.gov.co/" target="_blank" rel="noopener noreferrer">Visitar portal oficial ↗</a></article>
+</div>
+<p class="image-note">Fuentes institucionales: ICANH y Museo Nacional de Colombia. Los enlaces llevan a sus plataformas; no copiamos ni reutilizamos fotografías sin verificar sus condiciones de uso.</p>
+</section>
+
 <section class="section" id="tiempo" aria-labelledby="tiempo-title">
 <div class="section-head"><div><div class="kicker">Recorrido cronológico</div><h2 id="tiempo-title">Una línea del tiempo con preguntas</h2></div><div class="level-toggle" aria-label="Nivel de explicación"><span class="notice">Nivel:</span><button class="active" data-level="simple" aria-pressed="true">Claro y breve</button><button data-level="deep" aria-pressed="false">Profundizar</button></div></div>
 <div class="callout"><strong>Importante:</strong> las fechas y secuencias dependen del lugar, del material analizado y del método. Esta es una entrada al tema, no una cronología completa de Colombia.</div>
@@ -206,6 +256,15 @@ footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),va
 </main>
 <footer><div><strong>COLOMBIA ANCESTRAL</strong><p>Museo virtual educativo · Una iniciativa documental en desarrollo.</p></div><div><p>Aprender el pasado también significa cuidar el patrimonio.</p><p><a href="aula-docente.html">Aula docente ↗</a> · <a href="fuentes.html">Fuentes y bibliografía ↗</a> · <a href="accesibilidad.html">Accesibilidad y privacidad ↗</a></p><p><a href="https://github.com/jmtechquindio/colombia-ancestral">Ver repositorio y metodología ↗</a></p></div></footer>
 <script>
+
+const atlasData={
+magdalena:{symbol:"🗿",kicker:"Región 01 · Andes del sur",name:"Alto Magdalena · San Agustín",description:"Explora el paisaje arqueológico, la escultura monumental y los contextos funerarios del Alto Magdalena. Las interpretaciones deben apoyarse en la documentación de cada sitio.",caution:"La ficha es una introducción; no sustituye la información oficial del parque ni representa a una sola comunidad actual.",url:"https://parquesicanh.icanh.gov.co/portfolio/san-agustin/"},
+tierradentro:{symbol:"🪨",kicker:"Región 02 · Macizo colombiano",name:"Tierradentro · arquitectura funeraria",description:"Conoce los hipogeos, la arquitectura excavada y las pinturas documentadas en este paisaje cultural. Distingue las descripciones arqueológicas de las interpretaciones sobre su significado.",caution:"El acceso a ciertos lugares y las normas de conservación deben consultarse con el parque y las autoridades responsables.",url:"https://parquesicanh.icanh.gov.co/portfolio/tierradentro-parque-arqueologico/"},
+sierra:{symbol:"🌿",kicker:"Región 03 · Sierra Nevada de Santa Marta",name:"Teyuna · caminos y montaña",description:"Explora la ciudad arqueológica y los caminos de montaña, atendiendo a la conservación del lugar y a la relación con pueblos indígenas actuales.",caution:"No se deben inferir identidades o continuidades culturales simples solo por semejanzas materiales; incorpora las voces comunitarias.",url:"https://parquesicanh.icanh.gov.co/portfolio/teyuna-ciudad-perdida/"},
+caribe:{symbol:"🌊",kicker:"Región 04 · Caribe colombiano",name:"Santa María de la Antigua del Darién",description:"Investiga los contactos, transformaciones y conflictos que marcaron los primeros asentamientos coloniales europeos en Tierra Firme, contrastando fuentes arqueológicas e históricas.",caution:"La historia regional incluye perspectivas indígenas, afrodescendientes y europeas que no deben reducirse a una sola narración.",url:"https://parquesicanh.icanh.gov.co/"}
+};
+document.querySelectorAll("[data-atlas]").forEach(button=>button.addEventListener("click",()=>{const d=atlasData[button.dataset.atlas];document.querySelectorAll("[data-atlas]").forEach(b=>b.setAttribute("aria-pressed",String(b===button)));document.getElementById("atlas-symbol").textContent=d.symbol;document.getElementById("atlas-kicker").textContent=d.kicker;document.getElementById("atlas-name").textContent=d.name;document.getElementById("atlas-description").textContent=d.description;document.getElementById("atlas-caution").textContent=d.caution;document.getElementById("atlas-official").href=d.url;}));
+
 const evidence=[
 {id:"abra",title:"El Abra · Sabana de Bogotá",state:"debate",label:"Contexto y asociación por evaluar",kind:"Fuente primaria consultada",summary:"El artículo de 1977 informa una datación radiocarbónica de 12.400 ± 160 años BP asociada a carbón de una subunidad sedimentaria. Los autores advierten problemas de asociación para algunos materiales líticos.",deep:"La fecha GrN-5556 corresponde a carbón de la subunidad C3, a 1,50–1,75 m en el abrigo 2; no fecha directamente las lascas. El artículo describe dudas por distribución estratigráfica y posible movimiento de materiales.",source:"https://revistas.unal.edu.co/index.php/revistaun/article/view/12303",sourceLabel:"Correal, van der Hammen y Hurt (1977), registro institucional"},
 {id:"tibito",title:"Tibitó · Sabana de Bogotá",state:"debate",label:"Asociación arqueológica debatida",kind:"Resumen institucional revisado",summary:"El registro de Caldasia describe artefactos líticos y óseos en asociación con fauna pleistocénica. El resumen informa 11.740 ± 110 años BP para fragmentos óseos.",deep:"No convertir la fecha de huesos en fecha directa de todos los artefactos. La lectura completa del PDF no se ha verificado en esta fase; la ficha documental registra esa limitación de acceso.",source:"https://revistas.unal.edu.co/index.php/cal/article/view/34729",sourceLabel:"Correal (1982), registro y resumen institucional"},
