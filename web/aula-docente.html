@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#132b2a">
+<title>Aula docente | COLOMBIA ANCESTRAL</title>
+<style>
+:root{--ink:#173432;--deep:#102725;--leaf:#315b4b;--gold:#e5b96e;--paper:#f5f0e5;--white:#fffdf7;--line:#d9dfd3;--muted:#61736b}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}header{background:var(--deep);color:#fff9eb;padding:1.2rem max(1rem,calc((100% - 980px)/2))}header a{color:var(--gold)}main{max-width:980px;margin:auto;padding:2rem 1rem 4rem}h1,h2,h3{font-family:Georgia,serif;line-height:1.15}h1{font-size:clamp(2.2rem,5vw,3.8rem);margin:.5rem 0 1rem}h2{margin-top:2.2rem;font-size:1.8rem}p{max-width:78ch}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.75rem;color:#a8583d;font-weight:800}.intro,.activity,.note{background:var(--white);border:1px solid var(--line);border-radius:1rem;padding:1.2rem;margin:1rem 0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.tag{display:inline-block;border-radius:99px;background:#e5ece2;padding:.2rem .6rem;font-size:.78rem;font-weight:700}.activity h3{margin:.4rem 0}.activity ol{padding-left:1.3rem}.activity input{width:100%;padding:.65rem;border:1px solid #cbd5ca;border-radius:.5rem;font:inherit}.btn{border:0;background:var(--leaf);color:white;padding:.7rem 1rem;border-radius:99px;font:inherit;font-weight:700;cursor:pointer}.checkrow{display:flex;gap:.7rem;align-items:flex-start;margin:.6rem 0}.checkrow input{width:auto;margin-top:.45rem}.muted{color:var(--muted);font-size:.9rem}footer{background:var(--deep);color:#e7ede5;padding:1.5rem max(1rem,calc((100% - 980px)/2))}footer a{color:var(--gold)}@media(max-width:650px){.grid{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><strong>COLOMBIA ANCESTRAL · AULA DOCENTE</strong><p><a href="index.html">← Volver al museo virtual</a></p></header>
+<main>
+<div class="eyebrow">Material didáctico · versión inicial</div>
+<h1>Aprender a leer el pasado</h1>
+<p>Esta guía propone una clase breve para que estudiantes de distintos niveles practiquen una idea central de la arqueología: un hallazgo es más comprensible cuando conocemos su contexto, el método utilizado y los límites de la evidencia.</p>
+<div class="intro"><strong>Objetivo de aprendizaje</strong><p>Al terminar, el estudiante podrá distinguir entre un dato observado, una interpretación y una pregunta que todavía requiere investigación.</p><span class="tag">Duración sugerida: 35–50 minutos</span> <span class="tag">Sin materiales pagos</span></div>
+<h2>Adapta la actividad al grupo</h2>
+<div class="grid">
+<section class="activity"><span class="tag">Nivel inicial</span><h3>Observar y preguntar</h3><p>Para niñas y niños pequeños: describir una piedra, una vasija ilustrada o una fotografía autorizada sin adivinar quién la hizo.</p><ol><li>¿Qué veo directamente?</li><li>¿Qué imagino que pudo ocurrir?</li><li>¿Qué información me falta?</li></ol></section>
+<section class="activity"><span class="tag">Nivel intermedio</span><h3>Dato e interpretación</h3><p>Para estudiantes que empiezan a argumentar: comparar una afirmación con la evidencia que la respalda.</p><ol><li>Subrayar el dato comprobable.</li><li>Encerrar la interpretación del autor.</li><li>Escribir una limitación o alternativa.</li></ol></section>
+<section class="activity"><span class="tag">Nivel avanzado</span><h3>Evaluar una datación</h3><p>Para jóvenes y adultos: identificar el material fechado y evaluar si la fecha puede atribuirse a un objeto.</p><ol><li>¿Qué muestra fue analizada?</li><li>¿Cómo se asocia con el objeto?</li><li>¿La fecha está calibrada o se presenta como BP?</li></ol></section>
+<section class="activity"><span class="tag">Docentes</span><h3>Conversación de cierre</h3><p>Invitar al grupo a explicar por qué cambiar una interpretación ante nueva evidencia es parte del trabajo científico.</p><ol><li>¿Qué conclusión podemos sostener?</li><li>¿Qué afirmación sería exagerada?</li><li>¿Qué fuente consultaríamos después?</li></ol></section>
+</div>
+<h2>Actividad lista para usar: El Abra</h2>
+<div class="activity">
+<p>El artículo de Correal, van der Hammen y Hurt (1977) describe una fecha radiocarbónica de <strong>12.400 ± 160 años BP</strong> para carbón recuperado en un contexto sedimentario de El Abra. La publicación discute problemas de asociación para algunos materiales líticos.</p>
+<p><strong>Pregunta para el grupo:</strong> ¿podemos afirmar que esa fecha es la edad exacta de cada herramienta?</p>
+<div class="checkrow"><input type="radio" name="abra" id="a1" value="no"><label for="a1">No. La fecha corresponde a la muestra de carbón; su relación con las herramientas debe evaluarse.</label></div>
+<div class="checkrow"><input type="radio" name="abra" id="a2" value="yes"><label for="a2">Sí. Todas las cosas encontradas en un mismo sitio tienen necesariamente la misma edad.</label></div>
+<button class="btn" id="check-answer" type="button">Revisar respuesta</button><p id="answer-feedback" role="status" aria-live="polite"></p>
+<p class="muted">Fuente primaria y ficha institucional: <a href="https://revistas.unal.edu.co/index.php/revistaun/article/view/12303" target="_blank" rel="noopener noreferrer">Universidad Nacional de Colombia — publicación de 1977</a>.</p>
+</div>
+<h2>Plantilla para analizar cualquier hallazgo</h2>
+<div class="activity">
+<label for="observed"><strong>1. ¿Qué dato se observa o se reporta?</strong></label><input id="observed" placeholder="Ej.: el artículo informa una muestra de carbón">
+<label for="interpretation"><strong>2. ¿Qué interpretación proponen los autores?</strong></label><input id="interpretation" placeholder="Describe la explicación sin presentarla como certeza absoluta">
+<label for="limit"><strong>3. ¿Qué límite o duda queda pendiente?</strong></label><input id="limit" placeholder="¿Qué no se puede concluir todavía?">
+<button class="btn" id="copy-notes" type="button" style="margin-top:1rem">Preparar notas para copiar</button><p id="notes-feedback" role="status" aria-live="polite"></p><textarea id="notes-output" hidden rows="6" style="width:100%;margin-top:.5rem;padding:.8rem;font:inherit"></textarea>
+<p class="muted">Las notas permanecen en esta página mientras está abierta; no se envían a ningún servidor.</p>
+</div>
+<h2>Criterios de rigor</h2>
+<div class="note"><ul><li>No convertir una fecha de muestra en fecha directa de un artefacto sin justificar la asociación.</li><li>Distinguir años BP, años calendario y fechas calibradas.</li><li>No tratar una categoría cerámica como si identificara automáticamente un pueblo étnico.</li><li>Nombrar la fuente, el método y la incertidumbre.</li><li>Respetar el patrimonio, los derechos de autor y las comunidades vivas.</li></ul></div>
+<p class="muted">Esta guía es un recurso educativo inicial, no una sustitución de la publicación científica. Verifica el texto original antes de usar datos más detallados o distribuir materiales de terceros.</p>
+</main>
+<footer><strong>COLOMBIA ANCESTRAL</strong><p>Museo virtual educativo · <a href="https://github.com/jmtechquindio/colombia-ancestral">Repositorio y metodología</a></p></footer>
+<script>
+document.getElementById('check-answer').addEventListener('click',()=>{const chosen=document.querySelector('input[name="abra"]:checked');const out=document.getElementById('answer-feedback');if(!chosen){out.textContent='Selecciona una respuesta para continuar.';return;}out.textContent=chosen.value==='no'?'Correcto. La fecha pertenece a la muestra analizada; la relación con herramientas necesita evaluación contextual.':'No exactamente. Un sitio puede contener materiales de distintos momentos o con asociaciones inciertas. Revisa qué material fue fechado.';});
+document.getElementById('copy-notes').addEventListener('click',()=>{const val='Dato reportado: '+(document.getElementById('observed').value||'[por completar]')+'\nInterpretación de los autores: '+(document.getElementById('interpretation').value||'[por completar]')+'\nLímite o duda: '+(document.getElementById('limit').value||'[por completar]');const area=document.getElementById('notes-output');area.value=val;area.hidden=false;area.focus();area.select();document.getElementById('notes-feedback').textContent='Notas preparadas. Puedes copiarlas manualmente; no se han enviado ni guardado en línea.';});
+</script></body></html>
