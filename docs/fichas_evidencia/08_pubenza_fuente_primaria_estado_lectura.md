@@ -1,6 +1,6 @@
 # Ficha 08 — Pubenza: resumen institucional y controversia de asociación
 
-**Estado:** `metadatos_y_resumen_verificados`; lectura integral de la publicación primaria pendiente.
+**Estado actualizado (22-10-2026):** lectura del texto completo disponible en una reproducción digital no institucional; cotejo visual con el facsímil oficial y sus figuras pendiente. No se considera una verificación final de la procedencia de la muestra fechada.
 
 ## Referencia primaria
 
@@ -8,6 +8,7 @@ Correal Urrego, Gonzalo. 1993. “Nuevas evidencias culturales pleistocénicas y
 
 - Registro y resumen institucional del Banco de la República: https://publicaciones.banrepcultural.org/index.php/fian/article/view/5437
 - Vista del PDF desde el portal institucional (acceso automatizado devolvió 403 en esta consulta): https://publicaciones.banrepcultural.org/index.php/fian/article/view/5437/5694
+- Reproducción digital consultada, alojada en Scribd y no en el portal editor: https://www.scribd.com/document/457716736/Tibito-2-pdf
 - Síntesis académica consultada en texto completo: Aceituno, F. J. y Rojas-Mora, S. (2015), *Chungara* 47(1): 13–23. https://www.scielo.cl/scielo.php?pid=S0717-73562015000100003&script=sci_arttext
 
 ## Evidencia documentada
@@ -37,3 +38,12 @@ El resumen de 1993 reconoce que las evidencias de capas más profundas plantean 
 “Pubenza es un caso importante pero discutido en el estudio del poblamiento pleistocénico colombiano. La bibliografía reporta una fecha de 16.400 ± 420 BP y herramientas líticas; la fuerza de la interpretación depende de evaluar las asociaciones estratigráficas y las muestras fechadas. Esta revisión primaria sigue pendiente”.
 
 No describir Pubenza como prueba definitiva de la primera llegada humana a Colombia.
+
+
+## Actualización tras leer el texto disponible
+
+La reproducción consultada permite leer el artículo completo en texto OCR. En las páginas impresas 3–5, Correal ubica los hallazgos en el área de Pubenza, describe la interpretación de un pantano con fases de inundación y drenaje y enumera una lasca de obsidiana, artefactos de lidita, carbón vegetal, ocre, raíces, madera y restos faunísticos. El autor pide continuar las investigaciones para aclarar dudas sobre registros en capas profundas.
+
+El texto incluye la fecha **16.400 ± 420 BP** y los identificadores “Col. 700, GrN 19.857”; una nota señala que la fecha corresponde a carbón vegetal. La lectura OCR no basta para asignar sin ambigüedad la muestra a una herramienta o demostrar que fecha directamente la lasca de obsidiana. Se conserva esta limitación hasta cotejar la página del facsímil oficial y la cadena de procedencia del laboratorio.
+
+La ficha ampliada con notas de páginas, límites de interpretación y una formulación apta para divulgación está en [Ficha 12 — Pubenza en Correal (1993)](12_pubenza_correal_1993_lectura_texto_disponible.md).
