@@ -77,12 +77,13 @@ El prototipo es estático y autocontenido; no requiere cuentas, claves, servicio
 - [Aula docente](web/aula-docente.html): actividades por nivel y plantilla para analizar evidencias.
 - [Glosario interactivo](web/glosario.html): conceptos básicos de arqueología, cronología y patrimonio.
 - [Accesibilidad, privacidad y uso responsable](web/accesibilidad.html).
+- [Página de error 404](web/404.html) para rutas inexistentes.
 - [Accesibilidad, privacidad y uso responsable](web/accesibilidad.html).
 - [Validación automática](.github/workflows/validar-web.yml): revisa sintaxis JavaScript incrustada y enlaces locales; no publica el sitio.
 - [Publicación manual con control de aprobación](.github/workflows/publicar-web-manual.yml): solo puede iniciar manualmente y requiere marcar explícitamente la confirmación. No se ha ejecutado ni se ha publicado el sitio.
 
 ### Probar localmente
 
-Descarga la carpeta `web` y abre `index.html` en un navegador moderno. Los archivos del prototipo son estáticos y no requieren instalación de paquetes ni claves de servicios externos. La validación automática se ejecuta en GitHub Actions después de cambios en los archivos web.
+Descarga la carpeta `web` y abre `index.html` en un navegador moderno. Los archivos del prototipo son estáticos y no requieren instalación de paquetes ni claves de servicios externos. La validación automática se ejecuta en GitHub Actions después de cambios en los archivos web. En la última ejecución revisada, la sintaxis de JavaScript y los enlaces locales terminaron correctamente.
 
 **Estado de publicación:** no publicado. Antes de lanzar, revisar el sitio, fuentes, licencias, accesibilidad y resultados del flujo de validación. La publicación hará el contenido accesible públicamente.
