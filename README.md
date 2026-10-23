@@ -37,7 +37,7 @@ La ruta de trabajo inicia con el poblamiento temprano y sus controversias, conti
 - [Ficha 07 — Tibitó: estado de revisión de la fuente primaria](docs/fichas_evidencia/07_tibito_fuente_primaria_estado_lectura.md): datos del resumen institucional; PDF íntegro pendiente por limitación técnica.
 - [Ficha 08 — Pubenza: estado de revisión de la fuente primaria](docs/fichas_evidencia/08_pubenza_fuente_primaria_estado_lectura.md): resumen institucional, fecha reportada en síntesis y controversia estratigráfica pendiente de cotejo integral.
 - [Ficha 09 — Tibitó: informe preliminar de 1981](docs/fichas_evidencia/09_tibito_informe_preliminar_1981.md): lectura completa del avance publicado en *Boletín Museo del Oro*; distingue este texto del estudio ampliado pendiente.
-- [Ficha 10 — Peñones de Bogotá, Magdalena Medio](docs/fichas_evidencia/10_penones_magdalena_medio_fuente_primaria_estado.md): resumen institucional de un estudio radiocarbónico que los autores califican como preliminar; lectura integral pendiente.
+- [Ficha 10 — Peñones de Bogotá, Magdalena Medio](docs/fichas_evidencia/10_penones_magdalena_medio_fuente_primaria_estado.md): resumen institucional de un estudio radiocarbónico que los autores califican como preliminar; lectura integral pendiente.\n- [Ficha 11 — Auditoría de acceso a fuentes primarias](docs/fichas_evidencia/11_auditoria_acceso_fuentes_tibito_pubenza_penones.md): separa registros, resúmenes institucionales y textos íntegros; documenta límites de acceso y tareas de cotejo.
 
 ## Matrices comparativas
 
