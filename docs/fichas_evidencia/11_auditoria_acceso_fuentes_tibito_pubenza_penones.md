@@ -68,3 +68,12 @@ Se localizó y leyó el texto OCR del artículo de Correal (1993) en una reprodu
 - **Peñones (1993):** se reintentaron la página institucional del artículo, su ruta de PDF y el índice del volumen FIAN 8(1). El portal Banrepcultural devolvió 403 a la lectura automatizada. El resumen oficial es legible y califica los resultados como preliminares; no se transcriben datos de laboratorio sin ver las tablas.
 
 Referencias oficiales consultadas: https://revistas.unal.edu.co/index.php/cal/article/view/34729 ; https://publicaciones.banrepcultural.org/index.php/fian/article/view/5438 ; https://publicaciones.banrepcultural.org/index.php/fian/issue/view/216
+
+
+## Registro de repositorio alternativo y discrepancia de licencia — Tibitó (1982)
+
+RedCol/Minciencias identifica el repositorio de la Universidad Nacional, el OAI identifier `oai:repositorio.unal.edu.co:unal/44463` y un PDF de 23.663.104 bytes. En ese registro se reporta CC BY-NC 4.0, mientras que la página de *Caldasia* indica CC BY 4.0. Esta discrepancia se documenta como pendiente de aclaración; no se redistribuye el archivo ni se reutilizan imágenes hasta resolverla. La herramienta de lectura automática rechazó el PDF por tamaño, de modo que el artículo ampliado de 1982 continúa sin lectura integral en este flujo.
+
+Registro: https://redcol.minciencias.gov.co/Record/UNACIONAL2_4da6caf2ecc17aeac14816910eec42e6
+Archivo: https://repositorio.unal.edu.co/bitstream/unal/44463/1/34729-135238-1-PB.pdf
+Revista: https://revistas.unal.edu.co/index.php/cal/article/view/34729
