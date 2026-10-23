@@ -7,6 +7,28 @@
 <style>
 :root{--ink:#173432;--deep:#102725;--leaf:#315b4b;--paper:#f5f0e5;--white:#fffdf7;--line:#d9dfd3;--muted:#61736b}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}header,footer{background:var(--deep);color:#fff9eb;padding:1.2rem max(1rem,calc((100% - 980px)/2))}header a,footer a{color:#e5b96e}main{max-width:980px;margin:auto;padding:2rem 1rem 4rem}h1,h2{font-family:Georgia,serif;line-height:1.15}h1{font-size:clamp(2.3rem,5vw,3.6rem);margin:.5rem 0}.eyebrow{font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;color:#a8583d;font-weight:800}.search{width:100%;padding:.8rem 1rem;border:1px solid #cbd5ca;border-radius:.7rem;font:inherit;margin:1.2rem 0;background:var(--white)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem}.term{padding:1rem 1.15rem;border:1px solid var(--line);border-radius:.85rem;background:var(--white)}.term h2{font-size:1.2rem;margin:.1rem 0 .5rem}.term p{margin:.3rem 0;color:#4e6258}.tag{display:inline-block;background:#e5ece2;border-radius:99px;padding:.15rem .55rem;font-size:.72rem;font-weight:750}.muted{color:var(--muted);font-size:.9rem}.empty{background:var(--white);border-radius:.8rem;padding:1rem}.skip{position:absolute;left:-999px}.skip:focus{left:1rem;background:white;padding:.7rem;z-index:10}@media(max-width:620px){.grid{grid-template-columns:1fr}}
+
+/* Sistema visual COLOMBIA ANCESTRAL: coherencia entre espacios del museo */
+:root{--ink:#183a34;--deep:#102b28;--leaf:#356b54;--gold:#efc477;--paper:#f7f3e9;--white:#fffdf8;--line:#d8dfd1;--muted:#5e7168}
+body{background-color:var(--paper);background-image:radial-gradient(ellipse at 8% 5%,#dce6d333 0,transparent 32%);line-height:1.68}
+header{background:radial-gradient(ellipse at 88% 0,#28523f 0,transparent 46%),var(--deep);border-bottom:4px solid #d6ad64;box-shadow:0 8px 25px #102b2810}
+header strong{letter-spacing:.09em}
+main{padding-top:clamp(1.5rem,4vw,3rem);padding-bottom:4rem}
+h1,h2,h3{letter-spacing:-.02em}
+h1{font-size:clamp(2.3rem,5.5vw,3.8rem);text-wrap:balance}
+h2{font-size:clamp(1.55rem,3vw,2.15rem)}
+.intro,.activity,.note,.entry,.term,.source,.source-card,.panel,.content-card,.not-found{background:var(--white);border-color:var(--line);box-shadow:0 7px 24px #10272508;border-radius:1rem}
+a{color:#245b4b;text-underline-offset:3px;text-decoration-thickness:1.4px}
+a:hover{color:#a64f35}
+button,.btn{min-height:42px;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+button:hover,.btn:hover{transform:translateY(-1px)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #b56b36;outline-offset:3px}
+input,select,textarea{border-radius:.65rem}
+.tag{background:#e5eee3;color:#2e5b46}
+footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),var(--deep);border-top:4px solid #d6ad64}
+footer a{color:var(--gold)}
+@media(prefers-reduced-motion:reduce){button,.btn{transition:none}button:hover,.btn:hover{transform:none}}
+
 </style></head>
 <body><a class="skip" href="#main">Saltar al contenido</a>
 <header><strong>COLOMBIA ANCESTRAL</strong><p><a href="index.html">← Volver al museo virtual</a> · <a href="aula-docente.html">Aula docente</a></p></header>
