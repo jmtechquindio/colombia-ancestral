@@ -33,10 +33,10 @@
 </div>
 <h2>Plantilla para analizar cualquier hallazgo</h2>
 <div class="activity">
-<label for="observed"><strong>1. ¿Qué dato se observa o se reporta?</strong></label><input id="observed" placeholder="Ej.: el artículo informa una muestra de carbón">
-<label for="interpretation"><strong>2. ¿Qué interpretación proponen los autores?</strong></label><input id="interpretation" placeholder="Describe la explicación sin presentarla como certeza absoluta">
-<label for="limit"><strong>3. ¿Qué límite o duda queda pendiente?</strong></label><input id="limit" placeholder="¿Qué no se puede concluir todavía?">
-<button class="btn" id="copy-notes" type="button" style="margin-top:1rem">Preparar notas para copiar</button><p id="notes-feedback" role="status" aria-live="polite"></p><textarea id="notes-output" hidden rows="6" style="width:100%;margin-top:.5rem;padding:.8rem;font:inherit"></textarea>
+<label for="observed"><strong>1. ¿Qué dato se observa o se reporta?</strong></label><input id="observed" aria-label="Observación directa de la fuente" placeholder="Ej.: el artículo informa una muestra de carbón">
+<label for="interpretation"><strong>2. ¿Qué interpretación proponen los autores?</strong></label><input id="interpretation" aria-label="Interpretación de la evidencia" placeholder="Describe la explicación sin presentarla como certeza absoluta">
+<label for="limit"><strong>3. ¿Qué límite o duda queda pendiente?</strong></label><input id="limit" aria-label="Límite o dato pendiente" placeholder="¿Qué no se puede concluir todavía?">
+<button class="btn" id="copy-notes" type="button" style="margin-top:1rem">Preparar notas para copiar</button><p id="notes-feedback" role="status" aria-live="polite"></p><textarea id="notes-output" aria-label="Notas de análisis generadas localmente" hidden rows="6" style="width:100%;margin-top:.5rem;padding:.8rem;font:inherit"></textarea>
 <p class="muted">Las notas permanecen en esta página mientras está abierta; no se envían a ningún servidor.</p>
 </div>
 <h2>Criterios de rigor</h2>
