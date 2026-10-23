@@ -49,6 +49,8 @@ Investigar en orden temporal las evidencias regionales de caza, recolección, pe
 
 **Siguiente tarea:** revisar Aguazuque, Checua y Tequendama, junto con contextos de otras regiones. Registrar por separado restos botánicos, fauna, herramientas, entierros y métodos de datación. No trasladar automáticamente resultados de la Sabana de Bogotá al Cauca Medio o al Quindío.
 
+**Fuente regional localizada, todavía no explotada como evidencia:** Camilo Rodríguez, “Agricultores prehispánicos de la Hoya del Quindío”, *Boletín de Arqueología de la FIAN*, Vol. 3 Núm. 1 (1988), pp. 25–33. La ficha del Banco de la República confirma autor, publicación y que el trabajo aborda prospecciones en sectores de Montenegro y La Tebaida; el texto completo debe revisarse antes de resumir sus resultados. https://publicaciones.banrepcultural.org/index.php/fian/article/view/5029
+
 ## Etapa 3. Agricultura, cerámica y sociedades regionales
 
 Orden de investigación, sin presuponer que las fases fueron idénticas en todas partes:
@@ -94,6 +96,8 @@ Cada ficha debe incluir pregunta de investigación, afirmación concreta, autor 
 1. Delgado, Miguel (2017). “Sinopsis de la arqueología y la bioantropología del poblamiento temprano del noroccidente de Sudamérica”. Revista Colombiana de Antropología / ICANH. https://revistas.icanh.gov.co/index.php/rca/article/view/9/8
 2. Muttillo y colaboradores (2021). “Revisiting the lithic industries of El Abra sites (Sabana de Bogotá, Colombia, Northern South America). Implications for its significance and chronology”. Quaternary International. https://www.sciencedirect.com/science/article/abs/pii/S1040618220303141
 3. Muttillo y colaboradores (2014). “La preistoria in Colombia nell’ambito del primo popolamento del continente americano…”. Registro académico de la Universidad de Siena. https://usiena-air.unisi.it/handle/11365/1223830
+4. Correal Urrego (1993 [número original]). “Nuevas evidencias culturales pleistocénicas y megafauna en Colombia”. Boletín de Arqueología de la FIAN, repositorio del Banco de la República. https://publicaciones.banrepcultural.org/index.php/fian/article/view/5437
+5. Rodríguez (1988 [digitalizado en la plataforma en 2014]). “Agricultores prehispánicos de la Hoya del Quindío”. Boletín de Arqueología de la FIAN, repositorio del Banco de la República. https://publicaciones.banrepcultural.org/index.php/fian/article/view/5029
 4. ICANH (2025). “Ya está abierta la convocatoria Estímulos en arqueología en la cuenca media del río Cauca”. https://www.icanh.gov.co/prensa/actualidad-icanh/ya-esta-abierta-la-convocatoria-estimulos-en-arqueologia-en-la-cuenca-media-del-rio-cauca
 5. Resolución 304 de 2018, área arqueológica protegida del Valle del Abra. https://normograma.mincultura.gov.co/compilacion/docs/resolucion_icanh_0304_2018.htm
 
