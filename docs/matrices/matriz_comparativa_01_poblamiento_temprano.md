@@ -113,3 +113,12 @@ López Castaño y Botero (1993) presentan resultados de análisis radiocarbónic
 - Fuente institucional: https://publicaciones.banrepcultural.org/index.php/fian/article/view/5438
 - [Ficha 10 — Peñones de Bogotá](../fichas_evidencia/10_penones_magdalena_medio_fuente_primaria_estado.md)
 - **Estado:** metadatos y resumen verificados; lectura integral pendiente.
+
+
+## Actualización 22-10-2026 — auditoría de acceso documental
+
+Se intentó recuperar el texto íntegro de las fuentes ampliadas de Tibitó (1982) y Pubenza (1993) mediante sus registros institucionales y enlaces de texto completo. Los registros y resúmenes oficiales sí son accesibles, pero los intentos de recuperar los PDF íntegros no produjeron un texto que pudiera revisarse de manera fiable. Por ello, **no se ha elevado el estado de lectura de esas obras**. Para Tibitó (1982), el resumen institucional informa 11.740 ± 110 BP para fragmentos óseos, no una datación directa de artefactos. Para Pubenza, el resumen institucional reconoce dudas en registros de capas más profundas. Peñones (1993) permanece en estado de metadatos y resumen: no se incorporan fechas concretas sin cotejar las tablas originales.
+
+La auditoría detallada de las rutas de acceso y de las afirmaciones permitidas está en [Ficha 11 — Auditoría de acceso a fuentes primarias](../fichas_evidencia/11_auditoria_acceso_fuentes_tibito_pubenza_penones.md).
+
+Fuentes institucionales consultadas: [Universidad Nacional de Colombia, Correal (1982)](https://revistas.unal.edu.co/index.php/cal/article/view/34729); [Banco de la República / FIAN, Correal (1993)](https://publicaciones.banrepcultural.org/index.php/fian/article/view/5437); [Banco de la República / FIAN, López Castaño y Botero (1993)](https://publicaciones.banrepcultural.org/index.php/fian/article/view/5438).
