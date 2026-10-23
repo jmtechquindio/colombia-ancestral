@@ -26,6 +26,70 @@ footer{background:var(--deep);color:#e7ede5;padding:2rem clamp(1rem,4vw,4rem);di
 @media(max-width:800px){.hero{grid-template-columns:1fr}.hero-art{height:190px;max-width:500px;width:100%;margin:auto}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.quizbox{grid-template-columns:1fr}.topnote{display:none}}
 @media(max-width:520px){header{align-items:flex-start}.brand strong{font-size:.8rem}.brand small{max-width:180px}.hero{padding:1.35rem}.hero-art{height:150px}.sun{width:100px;height:100px}.grid,.evidence,.sources{grid-template-columns:1fr}.timeline{grid-template-columns:1fr}nav{position:relative;gap:.15rem}nav button{font-size:.8rem;padding:.5rem .65rem}.section{padding-top:2rem}.section-head{align-items:flex-start;flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Dirección de arte: museo arqueológico contemporáneo, cálido y exploratorio */
+:root{--ink:#183a34;--deep:#102b28;--leaf:#356b54;--jade:#a7c7a7;--gold:#efc477;--paper:#f7f3e9;--white:#fffdf8;--muted:#5e7168;--line:#d8dfd1;--rust:#a64f35;--shadow:0 22px 60px #102b2818}
+body{background-color:var(--paper);background-image:radial-gradient(ellipse at 12% 16%,#dce6d333 0,transparent 34%),radial-gradient(ellipse at 92% 42%,#e9d9b533 0,transparent 30%)}
+header{padding-top:1.15rem;padding-bottom:1.15rem}
+.brand-mark{width:46px;height:46px;border-radius:15px 15px 15px 4px;background:linear-gradient(145deg,#254d40,#102b28);box-shadow:inset 0 0 0 4px #ffffff08;font-size:1.5rem}
+.brand strong{font-size:.95rem;letter-spacing:.14em}
+nav{background:#173b34eF;backdrop-filter:blur(12px);box-shadow:0 8px 24px #102b2815}
+nav button{min-height:42px;transition:background .18s ease,transform .18s ease}
+nav button:hover{transform:translateY(-1px)}
+main{max-width:1280px}
+.hero{isolation:isolate;border:1px solid #ffffff17;background:radial-gradient(ellipse at 80% 15%,#37614d 0,transparent 40%),linear-gradient(125deg,#102b28 0%,#173d34 65%,#234d3d 100%);min-height:410px}
+.hero:before{content:"";position:absolute;inset:0;z-index:-1;opacity:.17;pointer-events:none;background:repeating-radial-gradient(ellipse at 95% 30%,transparent 0 19px,#c5d4bd 20px 21px,transparent 22px 39px);mask-image:linear-gradient(90deg,transparent 20%,#000 100%)}
+.hero h1{max-width:690px;font-size:clamp(2.5rem,5.3vw,4.9rem);text-wrap:balance}
+.hero p{font-size:1.08rem;line-height:1.75;max-width:600px}
+.hero-art{height:290px;filter:drop-shadow(0 18px 20px #081c1930)}
+.hero-art:before{content:"";position:absolute;width:240px;height:240px;border:1px solid #f4d8a35c;border-radius:50%;right:12%;top:-2px;box-shadow:0 0 0 18px #f4d8a30b,0 0 0 38px #f4d8a308}
+.sun{background:radial-gradient(circle at 32% 27%,#ffe6b7,#d69a5b 75%);box-shadow:0 0 75px #e5b96e44}
+.mountain{background:linear-gradient(150deg,#527a61,#2d5546)}
+.mountain.two{background:linear-gradient(150deg,#a5bd8f,#648a70)}
+.river{background:linear-gradient(110deg,#d9e2bd,#b3d1b5)}
+.btn{min-height:44px;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px #102b281b}
+.btn.primary{background:var(--gold);box-shadow:0 8px 24px #efc47725}
+.btn.primary:hover{background:#ffda91}
+.section{padding-top:3.3rem}
+.section-head{margin-bottom:1.35rem}
+.section-head h2{font-size:clamp(1.9rem,3.2vw,2.65rem);letter-spacing:-.025em}
+.kicker{letter-spacing:.18em}
+.grid{gap:1.1rem}
+.card{border-radius:1.15rem;box-shadow:0 6px 22px #10272508;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.card:hover{transform:translateY(-4px);box-shadow:0 16px 35px #10272512;border-color:#b7cbb8}
+.card h3{font-size:1.42rem}
+.card .symbol{border-radius:15px 15px 15px 5px;background:linear-gradient(145deg,#e7eee0,#d8e6d7);color:#2d5b47}
+.card a{font-weight:750;text-decoration-thickness:1.5px}
+.timeline{position:relative;gap:1rem}
+.time-card{position:relative;border:1px solid var(--line);border-top:4px solid var(--leaf);border-radius:.5rem .5rem 1rem 1rem;transition:transform .2s ease,box-shadow .2s ease}
+.time-card:hover{transform:translateY(-3px);box-shadow:0 14px 26px #10272510}
+.time-card:nth-child(2){border-top-color:#b98545}.time-card:nth-child(3){border-top-color:#8c765d}.time-card:nth-child(4){border-top-color:#4f8c82}
+.filters input,.filters select{min-height:46px;box-shadow:0 2px 7px #10272506}
+.evidence .card{padding:1.35rem}
+.pill{line-height:1.4}
+.quizbox{background:linear-gradient(130deg,#e7eee1,#d9e7d8);border:1px solid #cbdac9;box-shadow:var(--shadow)}
+.quiz-intro h2{font-size:clamp(2rem,3.4vw,2.7rem)}
+.quiz-question{box-shadow:0 8px 25px #1027250b}
+.answer{min-height:48px;line-height:1.45;transition:border-color .15s ease,background .15s ease}
+.answer:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #b56b36;outline-offset:3px}
+.callout{border-left-width:5px;background:linear-gradient(100deg,#fffaf0,#fffdf7)}
+.source-link{transition:transform .18s ease,border-color .18s ease}
+.source-link:hover{transform:translateY(-2px);border-color:#b7cbb8}
+footer{background:radial-gradient(ellipse at 80% 0,#234c3c 0,transparent 45%),var(--deep);border-top:4px solid #d6ad64}
+.expedition{display:grid;grid-template-columns:auto 1fr 1fr 1fr;gap:.8rem;align-items:stretch;margin:1.15rem 0 0;padding:1rem;background:#fffdf8c9;border:1px solid var(--line);border-radius:1rem;box-shadow:0 7px 24px #10272507}
+.expedition-label{display:flex;flex-direction:column;justify-content:center;padding:.3rem .8rem .3rem .25rem}
+.expedition-label strong{font:1.1rem Georgia,serif}
+.expedition-label span{font-size:.72rem;color:var(--muted);margin-top:.25rem}
+.route-step{display:flex;align-items:center;gap:.7rem;padding:.7rem;border-radius:.7rem;background:#f4f3e9;color:var(--ink);text-decoration:none;border:1px solid transparent;min-width:0}
+.route-step:hover{background:#eaf0e5;border-color:#c8d8c4;color:var(--ink)}
+.route-number{display:grid;place-items:center;flex:0 0 34px;height:34px;border-radius:50%;background:#244f40;color:#fff8e9;font-weight:800;font-size:.8rem}
+.route-step strong{display:block;font-size:.86rem}
+.route-step small{display:block;color:var(--muted);font-size:.75rem;line-height:1.35;margin-top:.12rem}
+@media(max-width:800px){.hero{min-height:0}.hero-art{height:220px}.expedition{grid-template-columns:1fr 1fr}.expedition-label{grid-column:1/-1;padding:.2rem}.route-step{padding:.65rem}}
+@media(max-width:520px){.hero{border-radius:1rem}.hero-art{height:155px}.hero-art:before{width:140px;height:140px;right:17%}.section{padding-top:2.5rem}.expedition{grid-template-columns:1fr}.route-step{min-height:60px}.grid,.evidence,.sources{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.btn,.card,.time-card,.source-link,nav button,.answer{transition:none}.btn:hover,.card:hover,.time-card:hover,.source-link:hover,nav button:hover{transform:none}}
+
 </style>
 </head>
 <body>
@@ -45,6 +109,12 @@ footer{background:var(--deep);color:#e7ede5;padding:2rem clamp(1rem,4vw,4rem);di
 <section class="hero" id="inicio">
 <div><div class="eyebrow">Un territorio, muchas historias</div><h1>El pasado no está perdido. Está esperando que lo exploremos.</h1><p>Viaja por las huellas del poblamiento de Colombia, descubre cómo trabaja la arqueología y aprende a distinguir lo que sabemos de lo que todavía investigamos.</p><div class="actions"><a class="btn primary" href="#tiempo">Comenzar el recorrido <span aria-hidden="true">→</span></a><a class="btn secondary" href="#juega">Ponerme a prueba</a></div></div>
 <div class="hero-art" aria-hidden="true"><div class="sun"></div><div class="mountain"></div><div class="mountain two"></div><div class="river"></div></div>
+</section>
+<section class="expedition" aria-label="Ruta recomendada de exploración">
+  <div class="expedition-label"><strong>Tu ruta de exploración</strong><span>3 paradas · tú marcas el ritmo</span></div>
+  <a class="route-step" href="#tiempo"><span class="route-number">01</span><span><strong>Viaja en el tiempo</strong><small>Ubica el periodo y la región</small></span></a>
+  <a class="route-step" href="#evidencias"><span class="route-number">02</span><span><strong>Investiga las pistas</strong><small>Separa datos de interpretaciones</small></span></a>
+  <a class="route-step" href="#juega"><span class="route-number">03</span><span><strong>Resuelve el reto</strong><small>Comprueba lo aprendido</small></span></a>
 </section>
 <section class="section" aria-labelledby="explora-title">
 <div class="section-head"><div><div class="kicker">Tu museo, tu recorrido</div><h2 id="explora-title">¿Por dónde quieres empezar?</h2></div><p>Explora a tu ritmo. Cada tema combina una explicación sencilla con fuentes para profundizar.</p></div>
