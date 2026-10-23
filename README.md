@@ -34,6 +34,7 @@ La ruta de trabajo inicia con el poblamiento temprano y sus controversias, conti
 - `pendiente`: requiere consulta o evidencia adicional.
 - `descartado`: no debe usarse como afirmación; conservar nota de por qué se descartó.
 - `metadatos_localizados_contenido_pendiente`: se localizó la ficha bibliográfica, pero falta revisar íntegramente el texto y cotejar sus fuentes.
+- `metadatos_y_resumen_verificados`: se comprobaron los metadatos y se consultó el resumen en una fuente institucional; la lectura integral y el cotejo de datos siguen pendientes.
 
 ## Nota
 
