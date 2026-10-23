@@ -31,6 +31,7 @@ La ruta de trabajo inicia con el poblamiento temprano y sus controversias, conti
 - [Ficha 01 — Cronología de Filandia según PARQUIM (2023)](docs/fichas_evidencia/01_cronologia_filandia_parquim_2023.md): periodización propuesta por los autores, fechas radiocarbónicas reportadas y límites de extrapolación.
 - [Ficha 02 — Poblamiento temprano de Colombia: revisión crítica](docs/fichas_evidencia/02_poblamiento_temprano_colombia_revision_critica.md): El Abra, Tibitó, Tequendama y Pubenza 3; distingue fechas reportadas, calibración y controversias.
 - [Ficha 03 — Rodríguez (1988), Hoya del Quindío](docs/fichas_evidencia/03_agricultores_prehispanicos_hoya_quindio_rodriguez_1988.md): ficha provisional basada en metadatos y resumen; texto completo pendiente.
+- [Ficha 04 — Arqueología y diversidad étnica actual](docs/fichas_evidencia/04_puente_arqueologia_diversidad_etnica_actual.md): marco para usar el Atlas del ICANH y datos del DANE sin confundir tradiciones arqueológicas con pueblos vivos.
 
 ## Estados de verificación
 
