@@ -16,7 +16,7 @@ Las fechas corresponden a contextos concretos, no a la llegada definitiva de un 
 - **Fecha publicada:** alrededor de 16.400 ± 420 años AP, según bibliografía arqueológica.
 - **Interpretación propuesta:** asociación de carbón, megafauna y artefactos líticos.
 - **Cautela:** la asociación entre actividad humana, fauna y artefactos ha sido discutida. No presentarlo como consenso indiscutible ni como “el primer colombiano”.
-- **Estado:** controvertido; revisar la publicación primaria antes de usarlo en divulgación.
+- **Estado:** controvertido; texto OCR completo consultado en reproducción no institucional, pero el facsímil oficial y la procedencia exacta de la muestra siguen pendientes de cotejo.
 - **Fuentes:** Delgado (2017), síntesis del ICANH: https://revistas.icanh.gov.co/index.php/rca/article/view/9/8 ; Muttillo y colaboradores (2021), revisión crítica de industrias líticas y cronología de El Abra que discute también sitios anteriores a 12.500 AP: https://www.sciencedirect.com/science/article/abs/pii/S1040618220303141
 
 ### 2. El Jordán — cordillera Central
@@ -36,7 +36,7 @@ Las fechas corresponden a contextos concretos, no a la llegada definitiva de un 
 - **Fecha publicada:** 11.740 ± 110 años AP, informada por Gonzalo Correal Urrego (1982).
 - **Evidencia descrita:** el artículo reporta artefactos de piedra y hueso asociados a restos de mastodontes, caballo americano y venado; señala que fragmentos óseos fueron fechados por radiocarbono.
 - **Cautela:** la asociación descrita en el artículo es una afirmación de la publicación original; para reconstruir actividad humana concreta o revisar la asociación tafonómica se requiere leer el PDF completo y considerar estudios posteriores.
-- **Estado:** publicación primaria identificada y resumen consultado; lectura completa pendiente.
+- **Estado:** publicación primaria identificada y resumen consultado; el PDF oficial se localizó, pero el lector automático rechazó el archivo por tamaño. Lectura completa pendiente.
 - **Fuente primaria accesible:** Correal Urrego (1982), *Caldasia*: https://revistas.unal.edu.co/index.php/cal/article/view/34729
 
 ### 5. La Lindosa y otros contextos amazónicos
@@ -110,3 +110,14 @@ Cada ficha debe incluir pregunta de investigación, afirmación concreta, autor 
 - **El Abra:** el registro académico de la Universidad de Siena contiene el resumen de Muttillo et al. (2021), que informa discrepancias en las colecciones y propone una cronología al menos 3.000 años más reciente que la previamente asumida. Por tanto, la cifra clásica de 12.400 ± 160 AP debe comunicarse como datación histórica discutida.
 - **Pubenza 3 y El Jordán:** una revisión de 2021 afirma que sus fechas anteriores a 12.500 AP no son aceptadas unánimemente; quedan en categoría controvertida, no como “primer poblamiento” establecido.
 - **Límite de esta revisión:** se verificaron metadatos y resúmenes institucionales accesibles, pero no se ha completado la lectura de todos los artículos ni el cotejo de todos los informes de excavación. No se declara cerrada la etapa.
+
+
+## Actualización documental — 22 de octubre de 2026
+
+Se incorporó la [Ficha 13 — Registro bibliográfico arqueológico del ICANH](fichas_evidencia/13_icanh_registro_bibliografico_siete_zonas.md). El Fondo Editorial del ICANH presenta esta obra como un registro bibliográfico y geográfico para siete zonas del país, pensado para contextualizar el poblamiento y apoyar la planificación y protección del patrimonio. La descarga oficial del PDF fue localizada, pero el lector automático no pudo procesar el archivo de aproximadamente 43,9 MB; no se afirma que su contenido interno haya sido leído.
+
+La ficha debe usarse como **índice para localizar referencias**, no como inventario vigente definitivo ni como permiso para visitar sitios. Para la fase Cauca Medio/Quindío, la publicación institucional del ICANH de 2025 reconoce líneas de investigación sobre poblamiento, plantas, tecnología, interacción humano-ambiente y cultura material, y también vacíos de conocimiento regionales. Esto orienta las preguntas de investigación, no resuelve por sí mismo cronologías concretas.
+
+Fuentes oficiales:
+- ICANH, *Información temática sobre bibliografía arqueológica en siete zonas de Colombia*: https://publicaciones.icanh.gov.co/index.php/picanh/catalog/book/156
+- ICANH, convocatoria de investigación en la cuenca media del río Cauca (2025): https://www.icanh.gov.co/prensa/actualidad-icanh/ya-esta-abierta-la-convocatoria-estimulos-en-arqueologia-en-la-cuenca-media-del-rio-cauca
