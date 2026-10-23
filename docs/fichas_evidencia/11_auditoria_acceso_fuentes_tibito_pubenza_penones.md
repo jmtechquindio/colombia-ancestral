@@ -55,3 +55,8 @@ Registros de acceso comprobados en esta búsqueda:
 - RedCol/Minciencias, ficha institucional con identificador OAI y enlace al PDF: https://redcol.minciencias.gov.co/Record/UNACIONAL2_4da6caf2ecc17aeac14816910eec42e6
 - Dialnet, ficha con enlace «Texto completo» que redirige a la revista: https://dialnet.unirioja.es/servlet/articulo?codigo=9397083
 - Número completo del *Boletín de Arqueología FIAN* 8(1) (1993), con los artículos de Pubenza y Peñones listados: https://publicaciones.banrepcultural.org/index.php/fian/issue/view/216
+
+
+## Actualización — Pubenza: texto completo disponible en reproducción digital
+
+Se localizó y leyó el texto OCR del artículo de Correal (1993) en una reproducción digital alojada en Scribd: https://www.scribd.com/document/457716736/Tibito-2-pdf. Esta copia contiene el artículo de las páginas impresas 3–12. El contenido se contrastó con el resumen institucional de Banrepcultural. No es una copia alojada por el editor y el OCR puede contener errores; el facsímil oficial sigue pendiente de cotejo visual. El texto menciona 16.400 ± 420 BP (Col. 700, GrN 19.857) y una nota identifica carbón vegetal como material fechado, pero no se ha demostrado con esta lectura que esa muestra date directamente una herramienta concreta. Ver [Ficha 12 — Pubenza](12_pubenza_correal_1993_lectura_texto_disponible.md).
