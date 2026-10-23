@@ -104,3 +104,12 @@ El informe breve de Correal publicado en *Boletín Museo del Oro* 10 (1981), pp.
 
 Ficha de lectura: [Ficha 09 — Tibitó, informe preliminar de 1981](../fichas_evidencia/09_tibito_informe_preliminar_1981.md).
 Fuente primaria: https://publicaciones.banrepcultural.org/index.php/bmo/article/download/7320/7588/14867
+
+
+### Nueva línea de investigación: Peñones de Bogotá (Puerto Berrío, Antioquia)
+
+López Castaño y Botero (1993) presentan resultados de análisis radiocarbónico y datos de suelos/fisiografía para Peñones de Bogotá, en el municipio de Puerto Berrío. El resumen institucional advierte que las interpretaciones son preliminares por el número reducido de fechas, los transectos y sondeos realizados y la amplitud temporal considerada. No se incorporan fechas concretas a la matriz hasta leer tablas y contexto completo.
+
+- Fuente institucional: https://publicaciones.banrepcultural.org/index.php/fian/article/view/5438
+- [Ficha 10 — Peñones de Bogotá](../fichas_evidencia/10_penones_magdalena_medio_fuente_primaria_estado.md)
+- **Estado:** metadatos y resumen verificados; lectura integral pendiente.
