@@ -85,7 +85,7 @@ Esta sección separa lo confirmado por resúmenes institucionales de lo que toda
 
 | Caso | Evidencia actualmente respaldada | Límite de interpretación | Estado |
 |---|---|---|---|
-| Tibitó 1 | El resumen institucional de Correal (1982) informa artefactos líticos y óseos asociados con restos de megafauna y una fecha de 11.740 ± 110 BP para fragmentos óseos. La síntesis de Aceituno y Rojas-Mora (2015) reporta el código GrN-9375 y una conversión calibrada de 11.826–11.312 cal BC. | No se debe llamar fecha directa de los artefactos. La asociación, contexto, tafonomía y muestra deben comprobarse en el artículo íntegro. | Metadatos y resumen verificados; lectura integral pendiente por problema técnico de acceso al PDF. |
+| Tibitó 1 | El resumen institucional de Correal (1982) informa artefactos líticos y óseos asociados con restos de megafauna y una fecha de 11.740 ± 110 BP para fragmentos óseos. La síntesis de Aceituno y Rojas-Mora (2015) reporta el código GrN-9375 y una conversión calibrada de 11.826–11.312 cal BC. | No se debe llamar fecha directa de los artefactos. La asociación, contexto, tafonomía y muestra deben comprobarse en el artículo íntegro. | Informe preliminar de 1981 leído íntegramente; monografía de 1981 y artículo ampliado de 1982 pendientes de lectura integral. |
 | Pubenza | El resumen institucional de Correal (1993) describe artefactos líticos, restos faunísticos y un contexto interpretado como humedal con fases de inundación y drenaje. La síntesis de 2015 reporta 16.400 ± 420 BP (GrN-19857) y ocho herramientas unifaciales. | El resumen reconoce dudas en niveles profundos. No convertir una fecha de la secuencia en fecha directa de los artefactos ni dar por resuelta la asociación estratigráfica. | Metadatos y resumen verificados; lectura integral y cotejo de muestras pendientes por error de acceso al PDF. |
 
 Fichas de seguimiento:
@@ -96,3 +96,11 @@ Fuentes institucionales:
 - Correal (1982), Universidad Nacional de Colombia: https://revistas.unal.edu.co/index.php/cal/article/view/34729
 - Correal (1993), Banco de la República / FIAN: https://publicaciones.banrepcultural.org/index.php/fian/article/view/5437
 - Aceituno y Rojas-Mora (2015), texto completo: https://www.scielo.cl/scielo.php?pid=S0717-73562015000100003&script=sci_arttext
+
+
+### Nueva fuente primaria leída: informe preliminar de Tibitó (1981)
+
+El informe breve de Correal publicado en *Boletín Museo del Oro* 10 (1981), pp. 25–30, fue consultado en texto completo. La sección de Tibitó (pp. 27–28) informa un área excavada de unos 140 m², 33 cuadrículas de 3 × 3 m, unidades inferiores descritas como sedimentos lacustres y una acumulación de restos de caballo, mastodonte y venado con artefactos de chert, hueso y asta, algunos parcialmente calcinados. Es un avance preliminar: no reemplaza la revisión del libro de 148 páginas de 1981 ni del artículo ampliado de 1982. La fecha de 11.740 BP no debe atribuirse directamente a los artefactos sin confirmar el material exacto de la muestra y su contexto analítico.
+
+Ficha de lectura: [Ficha 09 — Tibitó, informe preliminar de 1981](../fichas_evidencia/09_tibito_informe_preliminar_1981.md).
+Fuente primaria: https://publicaciones.banrepcultural.org/index.php/bmo/article/download/7320/7588/14867
