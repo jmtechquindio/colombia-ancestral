@@ -63,3 +63,10 @@ Este repositorio comienza como una base de trabajo. Un registro incluido aquí n
 ## Aplicación web educativa
 
 - [Propuesta del MVP: museo virtual interactivo](docs/app_web_educativa_mvp.md)
+
+## Prototipo de aplicación web
+
+- **Interfaz interactiva inicial:** [`web/index.html`](web/index.html)
+- **Alcance y criterios del MVP:** [`docs/app_web_educativa_mvp.md`](docs/app_web_educativa_mvp.md)
+
+El prototipo es estático y autocontenido; no requiere cuentas, claves, servicios de pago ni bibliotecas externas. Para previsualizarlo localmente, descarga `web/index.html` y ábrelo en un navegador moderno. **No se ha activado GitHub Pages ni se ha publicado el sitio.** Antes de activar un alojamiento público, revisar el contenido, las fuentes, los derechos de uso y la aprobación editorial.
