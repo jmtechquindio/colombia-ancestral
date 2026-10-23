@@ -1,0 +1,77 @@
+name: Validar prototipo web
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - ".github/workflows/validar-web.yml"
+  pull_request:
+    paths:
+      - "web/**"
+      - ".github/workflows/validar-web.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar-html-y-javascript:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validar sintaxis JavaScript incrustada
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const vm = require('vm');
+          const files = fs.readdirSync('web').filter(f => f.endsWith('.html'));
+          if (!files.length) throw new Error('No se encontraron páginas HTML.');
+          for (const file of files) {
+            const html = fs.readFileSync('web/' + file, 'utf8');
+            const scripts = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)];
+            for (let i = 0; i < scripts.length; i++) {
+              new vm.Script(scripts[i][1], { filename: `${file}:script-${i + 1}` });
+            }
+            if (!/^<!doctype html>/i.test(html.trim())) throw new Error(file + ': falta <!doctype html>');
+            if (!/<html\b[^>]*lang="es"/i.test(html)) throw new Error(file + ': falta idioma español en html');
+            if (!/<meta\s+name="viewport"/i.test(html)) throw new Error(file + ': falta meta viewport');
+            console.log('OK:', file, '-', scripts.length, 'bloques JavaScript revisados');
+          }
+          NODE
+      - name: Comprobar enlaces relativos a páginas locales
+        run: |
+          python3 <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urlparse
+          class Links(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.hrefs=[]
+              def handle_starttag(self, tag, attrs):
+                  attrs=dict(attrs)
+                  if tag in ('a','link') and attrs.get('href'):
+                      self.hrefs.append(attrs['href'])
+          root=Path('web')
+          errors=[]
+          for page in root.glob('*.html'):
+              parser=Links()
+              parser.feed(page.read_text(encoding='utf-8'))
+              for href in parser.hrefs:
+                  if href.startswith(('#','mailto:','tel:')): continue
+                  u=urlparse(href)
+                  if u.scheme or u.netloc: continue
+                  target=(page.parent/u.path).resolve()
+                  if not target.exists():
+                      errors.append(f'{page}: enlace local roto: {href}')
+          if errors:
+              print('\n'.join(errors))
+              raise SystemExit(1)
+          print('OK: enlaces relativos locales verificados')
+          PY
