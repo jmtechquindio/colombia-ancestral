@@ -86,7 +86,7 @@ Esta sección separa lo confirmado por resúmenes institucionales de lo que toda
 | Caso | Evidencia actualmente respaldada | Límite de interpretación | Estado |
 |---|---|---|---|
 | Tibitó 1 | El resumen institucional de Correal (1982) informa artefactos líticos y óseos asociados con restos de megafauna y una fecha de 11.740 ± 110 BP para fragmentos óseos. La síntesis de Aceituno y Rojas-Mora (2015) reporta el código GrN-9375 y una conversión calibrada de 11.826–11.312 cal BC. | No se debe llamar fecha directa de los artefactos. La asociación, contexto, tafonomía y muestra deben comprobarse en el artículo íntegro. | Informe preliminar de 1981 leído íntegramente; monografía de 1981 y artículo ampliado de 1982 pendientes de lectura integral. |
-| Pubenza | El resumen institucional de Correal (1993) describe artefactos líticos, restos faunísticos y un contexto interpretado como humedal con fases de inundación y drenaje. La síntesis de 2015 reporta 16.400 ± 420 BP (GrN-19857) y ocho herramientas unifaciales. | El resumen reconoce dudas en niveles profundos. No convertir una fecha de la secuencia en fecha directa de los artefactos ni dar por resuelta la asociación estratigráfica. | Metadatos y resumen verificados; lectura integral y cotejo de muestras pendientes por error de acceso al PDF. |
+| Pubenza | El resumen institucional de Correal (1993) describe artefactos líticos, restos faunísticos y un contexto interpretado como humedal con fases de inundación y drenaje. La síntesis de 2015 reporta 16.400 ± 420 BP (GrN-19857) y ocho herramientas unifaciales. | El resumen reconoce dudas en niveles profundos. No convertir una fecha de la secuencia en fecha directa de los artefactos ni dar por resuelta la asociación estratigráfica. | Texto OCR completo consultado en reproducción digital no institucional; cotejo visual del facsímil oficial y procedencia de muestra pendientes. |
 
 Fichas de seguimiento:
 - [Ficha 07 — Tibitó](../fichas_evidencia/07_tibito_fuente_primaria_estado_lectura.md)
@@ -126,3 +126,12 @@ Fuentes institucionales consultadas: [Universidad Nacional de Colombia, Correal 
 ## Actualización 22-10-2026 — lectura del texto de Correal (1993) disponible en reproducción digital
 
 Se pudo leer el texto OCR completo del artículo de Correal sobre Pubenza en una reproducción alojada en Scribd, y se contrastó su contenido general con el resumen institucional de Banrepcultural. El artículo describe un contexto interpretado como pantano con fases de inundación y drenaje, enumera una lasca de obsidiana, artefactos de lidita, carbón vegetal, ocre, raíces, madera y fauna, y pide continuar los trabajos para resolver dudas en capas profundas. Menciona 16.400 ± 420 BP (Col. 700, GrN 19.857) y una nota indica que la fecha corresponde a carbón vegetal. Como el facsímil oficial no pudo descargarse en esta sesión y la reproducción presenta OCR imperfecto, no se atribuye la fecha directamente a la lasca ni se da por cerrada la controversia. Véase [Ficha 12](../fichas_evidencia/12_pubenza_correal_1993_lectura_texto_disponible.md).
+
+
+## Actualización de acceso — Peñones y Tibitó (22-10-2026)
+
+La página oficial de Peñones y el índice del volumen FIAN 8(1) se volvieron a consultar. El resumen institucional reafirma que los autores consideran preliminares sus interpretaciones debido al número reducido de fechas, el tipo de transectos y sondeos y la amplitud temporal. La descarga automática del artículo siguió bloqueada por el servidor; no se han transcrito fechas de tablas que no se han podido revisar.
+
+Para Tibitó (1982), la página oficial de *Caldasia* está accesible y expone el resumen y el enlace de descarga. El intento de abrir el PDF desde el enlace oficial fue rechazado por el límite de tamaño del documento en el lector automático (>10 MiB). Se confirma, por tanto, el resumen institucional pero no la lectura integral del artículo. La página oficial dice explícitamente que la edad de 11.740 ± 110 BP se obtuvo de fragmentos óseos; no se debe describir como una fecha directa de las herramientas.
+
+Fuentes: https://publicaciones.banrepcultural.org/index.php/fian/article/view/5438 ; https://publicaciones.banrepcultural.org/index.php/fian/issue/view/216 ; https://revistas.unal.edu.co/index.php/cal/article/view/34729
