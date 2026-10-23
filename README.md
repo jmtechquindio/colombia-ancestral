@@ -40,6 +40,7 @@ La ruta de trabajo inicia con el poblamiento temprano y sus controversias, conti
 - [Ficha 10 — Peñones de Bogotá, Magdalena Medio](docs/fichas_evidencia/10_penones_magdalena_medio_fuente_primaria_estado.md): resumen institucional de un estudio radiocarbónico que los autores califican como preliminar; lectura integral pendiente.
 - [Ficha 11 — Auditoría de acceso a fuentes primarias](docs/fichas_evidencia/11_auditoria_acceso_fuentes_tibito_pubenza_penones.md): separa registros, resúmenes institucionales y textos íntegros; documenta límites de acceso y tareas de cotejo.
 - [Ficha 12 — Pubenza en Correal (1993)](docs/fichas_evidencia/12_pubenza_correal_1993_lectura_texto_disponible.md): lectura del texto OCR completo disponible, cautelas sobre la muestra de carbón y límites de asociación.
+- [Ficha 13 — Registro bibliográfico arqueológico del ICANH](docs/fichas_evidencia/13_icanh_registro_bibliografico_siete_zonas.md): recurso oficial de consulta regional; el PDF está localizado, pero su contenido interno aún no se declara leído.
 
 ## Matrices comparativas
 
