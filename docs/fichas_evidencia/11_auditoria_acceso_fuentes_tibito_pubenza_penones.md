@@ -60,3 +60,11 @@ Registros de acceso comprobados en esta búsqueda:
 ## Actualización — Pubenza: texto completo disponible en reproducción digital
 
 Se localizó y leyó el texto OCR del artículo de Correal (1993) en una reproducción digital alojada en Scribd: https://www.scribd.com/document/457716736/Tibito-2-pdf. Esta copia contiene el artículo de las páginas impresas 3–12. El contenido se contrastó con el resumen institucional de Banrepcultural. No es una copia alojada por el editor y el OCR puede contener errores; el facsímil oficial sigue pendiente de cotejo visual. El texto menciona 16.400 ± 420 BP (Col. 700, GrN 19.857) y una nota identifica carbón vegetal como material fechado, pero no se ha demostrado con esta lectura que esa muestra date directamente una herramienta concreta. Ver [Ficha 12 — Pubenza](12_pubenza_correal_1993_lectura_texto_disponible.md).
+
+
+## Segundo intento de acceso — Tibitó (1982) y Peñones (1993), 22-10-2026
+
+- **Tibitó (1982):** la ficha oficial de *Caldasia* se abrió correctamente y confirma el resumen. El enlace PDF fue seguido; el lector rechazó el archivo por superar 10 MiB. No se declara lectura integral. El resumen indica que la determinación de 11.740 ± 110 BP corresponde a fragmentos óseos.
+- **Peñones (1993):** se reintentaron la página institucional del artículo, su ruta de PDF y el índice del volumen FIAN 8(1). El portal Banrepcultural devolvió 403 a la lectura automatizada. El resumen oficial es legible y califica los resultados como preliminares; no se transcriben datos de laboratorio sin ver las tablas.
+
+Referencias oficiales consultadas: https://revistas.unal.edu.co/index.php/cal/article/view/34729 ; https://publicaciones.banrepcultural.org/index.php/fian/article/view/5438 ; https://publicaciones.banrepcultural.org/index.php/fian/issue/view/216
