@@ -1,12 +1,14 @@
 # Ficha 07 — Tibitó: fuente primaria localizada y lectura integral pendiente
 
-**Estado:** `metadatos_y_resumen_verificados`; texto completo no revisado íntegramente en esta fase.
+**Estado actualizado:** se leyó íntegramente el informe preliminar de 1981; la monografía de 1981 y el artículo ampliado de 1982 siguen pendientes de lectura integral.
 
 ## Referencia primaria
 
 Correal Urrego, Gonzalo. 1982. “Restos de megafauna asociadas a artefactos en la Sabana de Bogotá”. *Caldasia* 13(64): 487–547. Universidad Nacional de Colombia.
 
-- Registro institucional y resumen: https://revistas.unal.edu.co/index.php/cal/article/view/34729
+- Informe preliminar primario leído íntegramente: Correal Urrego, en *Boletín Museo del Oro* 10 (1981), pp. 25–30. PDF: https://publicaciones.banrepcultural.org/index.php/bmo/article/download/7320/7588/14867
+- Monografía primaria localizada: Correal Urrego, G. 1981. *Evidencias culturales y megafauna pleistocénica en Colombia*, 148 pp. Registro Smithsonian: https://www.si.edu/object/siris_sil_179980
+- Artículo ampliado y resumen institucional: https://revistas.unal.edu.co/index.php/cal/article/view/34729
 - Vista institucional del PDF: https://revistas.unal.edu.co/index.php/cal/article/view/34729/35001
 - Síntesis académica consultada en texto completo: Aceituno, F. J. y Rojas-Mora, S. (2015), *Chungara* 47(1): 13–23. https://www.scielo.cl/scielo.php?pid=S0717-73562015000100003&script=sci_arttext
 
