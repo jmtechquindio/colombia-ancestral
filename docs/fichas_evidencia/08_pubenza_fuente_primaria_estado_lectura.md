@@ -28,7 +28,7 @@ El resumen de 1993 reconoce que las evidencias de capas más profundas plantean 
 
 ## Qué falta para cerrar la ficha
 
-1. Obtener y leer el texto completo de Correal (1993).
+1. Cotejar visualmente el facsímil oficial con el texto OCR de la reproducción digital y verificar las figuras, notas y cualquier error de reconocimiento.
 2. Registrar procedencia y material exacto de cada muestra fechada, unidad estratigráfica y relación con los artefactos.
 3. Contrastar con Correal (1981) y con la discusión académica posterior sobre Pubenza.
 4. Solo después ajustar el nivel de confianza en la matriz comparativa.
