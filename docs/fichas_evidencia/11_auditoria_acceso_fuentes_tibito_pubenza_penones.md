@@ -40,3 +40,18 @@ La búsqueda adicional localizó registros institucionales y páginas de texto c
 ## Próximo paso verificable
 
 Conseguir un ejemplar accesible y autorizado de cada publicación (biblioteca, repositorio institucional o solicitud a la entidad editora). Una vez disponible, elaborar fichas página por página con citas de página, tabla, muestra fechada, código de laboratorio, unidad estratigráfica y limitaciones. Hasta entonces, las fichas 07, 08 y 10 deben conservar el estado de lectura parcial.
+
+
+## Intento adicional de recuperación directa — 22-10-2026
+
+Se encontró una ruta directa alternativa al PDF del artículo de Tibitó (1982) en el repositorio institucional de la Universidad Nacional, identificada desde el registro de RedCol/Minciencias. El registro indica acceso abierto y licencia Atribución-NoComercial 4.0; la ruta del archivo es:
+
+https://repositorio.unal.edu.co/bitstream/unal/44463/1/34729-135238-1-PB.pdf
+
+La página de la revista también expone la descarga oficial en https://revistas.unal.edu.co/index.php/cal/article/view/34729/35001. Sin embargo, la herramienta de lectura web rechazó el PDF por superar el límite de contenido procesable (más de 10 MiB), y el entorno de descarga no pudo conectarse al dominio. Por tanto, la ruta quedó localizada, pero el artículo **no se considera leído íntegramente**. Próxima vía concreta: descargar el PDF desde un navegador normal o solicitarlo a la biblioteca/autor; después revisar el documento página por página.
+
+Registros de acceso comprobados en esta búsqueda:
+- Universidad Nacional, ficha del artículo y descarga: https://revistas.unal.edu.co/index.php/cal/article/view/34729
+- RedCol/Minciencias, ficha institucional con identificador OAI y enlace al PDF: https://redcol.minciencias.gov.co/Record/UNACIONAL2_4da6caf2ecc17aeac14816910eec42e6
+- Dialnet, ficha con enlace «Texto completo» que redirige a la revista: https://dialnet.unirioja.es/servlet/articulo?codigo=9397083
+- Número completo del *Boletín de Arqueología FIAN* 8(1) (1993), con los artículos de Pubenza y Peñones listados: https://publicaciones.banrepcultural.org/index.php/fian/issue/view/216
