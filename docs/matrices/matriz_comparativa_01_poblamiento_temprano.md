@@ -77,3 +77,22 @@ Fuente primaria y ficha de lectura:
 - Correal Urrego, van der Hammen y Hurt (1977), texto completo: https://revistas.unal.edu.co/index.php/revistaun/article/download/12303/12919/31470
 - [Ficha 06 — El Abra: fuente primaria de 1977](../fichas_evidencia/06_el_abra_fuente_primaria_1977.md)
 
+
+
+## Actualización de estado de fuentes: Tibitó y Pubenza
+
+Esta sección separa lo confirmado por resúmenes institucionales de lo que todavía exige lectura integral de las publicaciones originales.
+
+| Caso | Evidencia actualmente respaldada | Límite de interpretación | Estado |
+|---|---|---|---|
+| Tibitó 1 | El resumen institucional de Correal (1982) informa artefactos líticos y óseos asociados con restos de megafauna y una fecha de 11.740 ± 110 BP para fragmentos óseos. La síntesis de Aceituno y Rojas-Mora (2015) reporta el código GrN-9375 y una conversión calibrada de 11.826–11.312 cal BC. | No se debe llamar fecha directa de los artefactos. La asociación, contexto, tafonomía y muestra deben comprobarse en el artículo íntegro. | Metadatos y resumen verificados; lectura integral pendiente por problema técnico de acceso al PDF. |
+| Pubenza | El resumen institucional de Correal (1993) describe artefactos líticos, restos faunísticos y un contexto interpretado como humedal con fases de inundación y drenaje. La síntesis de 2015 reporta 16.400 ± 420 BP (GrN-19857) y ocho herramientas unifaciales. | El resumen reconoce dudas en niveles profundos. No convertir una fecha de la secuencia en fecha directa de los artefactos ni dar por resuelta la asociación estratigráfica. | Metadatos y resumen verificados; lectura integral y cotejo de muestras pendientes por error de acceso al PDF. |
+
+Fichas de seguimiento:
+- [Ficha 07 — Tibitó](../fichas_evidencia/07_tibito_fuente_primaria_estado_lectura.md)
+- [Ficha 08 — Pubenza](../fichas_evidencia/08_pubenza_fuente_primaria_estado_lectura.md)
+
+Fuentes institucionales:
+- Correal (1982), Universidad Nacional de Colombia: https://revistas.unal.edu.co/index.php/cal/article/view/34729
+- Correal (1993), Banco de la República / FIAN: https://publicaciones.banrepcultural.org/index.php/fian/article/view/5437
+- Aceituno y Rojas-Mora (2015), texto completo: https://www.scielo.cl/scielo.php?pid=S0717-73562015000100003&script=sci_arttext
