@@ -70,3 +70,17 @@ Este repositorio comienza como una base de trabajo. Un registro incluido aquí n
 - **Alcance y criterios del MVP:** [`docs/app_web_educativa_mvp.md`](docs/app_web_educativa_mvp.md)
 
 El prototipo es estático y autocontenido; no requiere cuentas, claves, servicios de pago ni bibliotecas externas. Para previsualizarlo localmente, descarga `web/index.html` y ábrelo en un navegador moderno. **No se ha activado GitHub Pages ni se ha publicado el sitio.** Antes de activar un alojamiento público, revisar el contenido, las fuentes, los derechos de uso y la aprobación editorial.
+
+## Estado del MVP web
+
+- [Museo virtual](web/index.html): línea del tiempo, fichas con filtros y cuestionario didáctico.
+- [Aula docente](web/aula-docente.html): actividades por nivel y plantilla para analizar evidencias.
+- [Accesibilidad, privacidad y uso responsable](web/accesibilidad.html).
+- [Validación automática](.github/workflows/validar-web.yml): revisa sintaxis JavaScript incrustada y enlaces locales; no publica el sitio.
+- [Publicación manual con control de aprobación](.github/workflows/publicar-web-manual.yml): solo puede iniciar manualmente y requiere marcar explícitamente la confirmación. No se ha ejecutado ni se ha publicado el sitio.
+
+### Probar localmente
+
+Descarga la carpeta `web` y abre `index.html` en un navegador moderno. Los archivos del prototipo son estáticos y no requieren instalación de paquetes ni claves de servicios externos. La validación automática se ejecuta en GitHub Actions después de cambios en los archivos web.
+
+**Estado de publicación:** no publicado. Antes de lanzar, revisar el sitio, fuentes, licencias, accesibilidad y resultados del flujo de validación. La publicación hará el contenido accesible públicamente.
