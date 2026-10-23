@@ -117,7 +117,7 @@ López Castaño y Botero (1993) presentan resultados de análisis radiocarbónic
 
 ## Actualización 22-10-2026 — auditoría de acceso documental
 
-Se intentó recuperar el texto íntegro de las fuentes ampliadas de Tibitó (1982) y Pubenza (1993) mediante sus registros institucionales y enlaces de texto completo. Los registros y resúmenes oficiales sí son accesibles, pero los intentos de recuperar los PDF íntegros no produjeron un texto que pudiera revisarse de manera fiable. Por ello, **no se ha elevado el estado de lectura de esas obras**. Para Tibitó (1982), el resumen institucional informa 11.740 ± 110 BP para fragmentos óseos, no una datación directa de artefactos. Para Pubenza, el resumen institucional reconoce dudas en registros de capas más profundas. Peñones (1993) permanece en estado de metadatos y resumen: no se incorporan fechas concretas sin cotejar las tablas originales.
+Se intentó recuperar el texto íntegro de Tibitó (1982) y Peñones (1993) desde sus registros institucionales; la lectura automática del PDF de Tibitó fue rechazada por tamaño y el portal de Peñones devolvió 403. Pubenza (1993), en cambio, se leyó como texto OCR en una reproducción digital no institucional; el facsímil oficial y la procedencia exacta de la muestra siguen pendientes de cotejo. Para Tibitó, el resumen institucional informa 11.740 ± 110 BP para fragmentos óseos, no una datación directa de artefactos. Para Peñones no se incorporan fechas concretas sin cotejar las tablas originales.
 
 La auditoría detallada de las rutas de acceso y de las afirmaciones permitidas está en [Ficha 11 — Auditoría de acceso a fuentes primarias](../fichas_evidencia/11_auditoria_acceso_fuentes_tibito_pubenza_penones.md).
 
