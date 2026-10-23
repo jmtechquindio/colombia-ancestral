@@ -36,6 +36,7 @@ La ruta de trabajo inicia con el poblamiento temprano y sus controversias, conti
 - [Ficha 06 — El Abra: fuente primaria de 1977](docs/fichas_evidencia/06_el_abra_fuente_primaria_1977.md): fecha de carbón vegetal, contexto estratigráfico y cautelas de asociación con artefactos.
 - [Ficha 07 — Tibitó: estado de revisión de la fuente primaria](docs/fichas_evidencia/07_tibito_fuente_primaria_estado_lectura.md): datos del resumen institucional; PDF íntegro pendiente por limitación técnica.
 - [Ficha 08 — Pubenza: estado de revisión de la fuente primaria](docs/fichas_evidencia/08_pubenza_fuente_primaria_estado_lectura.md): resumen institucional, fecha reportada en síntesis y controversia estratigráfica pendiente de cotejo integral.
+- [Ficha 09 — Tibitó: informe preliminar de 1981](docs/fichas_evidencia/09_tibito_informe_preliminar_1981.md): lectura completa del avance publicado en *Boletín Museo del Oro*; distingue este texto del estudio ampliado pendiente.
 
 ## Matrices comparativas
 
