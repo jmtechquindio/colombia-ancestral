@@ -59,3 +59,7 @@ La ruta de trabajo inicia con el poblamiento temprano y sus controversias, conti
 ## Nota
 
 Este repositorio comienza como una base de trabajo. Un registro incluido aquí no implica que un lugar esté abierto al público, que sea visitable ni que su localización deba difundirse.
+
+## Aplicación web educativa
+
+- [Propuesta del MVP: museo virtual interactivo](docs/app_web_educativa_mvp.md)
