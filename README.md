@@ -17,7 +17,7 @@ La primera fase documentará las fuentes institucionales y académicas relaciona
 
 ## Orden cronológico de investigación
 
-La ruta de trabajo inicia con el poblamiento temprano y sus controversias, continúa con las adaptaciones del Holoceno, agricultura y cerámica, sociedades regionales del Cauca Medio/Quindío, grupos nombrados en fuentes históricas, contacto colonial y etnoturismo responsable. Ver [cronología de poblamiento y grupos](docs/cronologia_poblamiento_y_grupos.md). La cronología marca explícitamente los datos discutidos y no convierte tradiciones arqueológicas en etnias sin evidencia.
+La ruta de trabajo inicia con el poblamiento temprano y sus controversias, continúa con las adaptaciones del Holoceno, agricultura y cerámica, sociedades regionales del Cauca Medio/Quindío, grupos nombrados en fuentes históricas, contacto colonial y etnoturismo responsable. Ver [cronología de poblamiento y grupos](docs/cronologia_poblamiento_y_grupos.md) y el [plan de lecturas del Holoceno](docs/plan_lecturas_holoceno_01.md). La cronología marca explícitamente los datos discutidos y no convierte tradiciones arqueológicas en etnias sin evidencia.
 
 ## Estructura prevista
 
